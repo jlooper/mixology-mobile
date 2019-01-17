@@ -2,15 +2,20 @@
   <ScrollView>
     <GridLayout rows="auto,auto,auto" style="height:100%" verticalAlignment="top">
       <Label class="page-title" row="0" text="Shake to Create a Cocktail!"/>
-      <Button class="page-title" row="1" text="Activate the Shaker" @tap="startAccelerometer()"/>
-      <GridLayout class="card" row="2">
+      <!--<Button
+        class="activateButton"
+        row="1"
+        text="Activate the Shaker"
+        @tap="startAccelerometer()"
+      />-->
+      <GridLayout class="card" row="1">
         <ListView
           for="item in selectedCocktail"
           separatorColor="transparent"
           backgroundColor="transparent"
         >
           <v-template>
-            <Label textWrap="true" :text="item"/>
+            <Label class="recipeLabel" textWrap="true" :text="item"/>
           </v-template>
         </ListView>
       </GridLayout>
@@ -95,13 +100,29 @@ export default {
       let t = newCocktail.split(",");
       for (var i = 0; i < t.length; i++) {
         console.log(t[i]);
-        this.selectedCocktail.push(t[i]);
+        this.selectedCocktail.push(t[i].replace('"', ""));
       }
       this.accelerometerListening = false;
     }
   },
   created() {
-    console.log(this.cocktailGroup);
+    this.startAccelerometer();
   }
 };
 </script>
+
+<style>
+.recipeLabel {
+  font-size: 25;
+  font-family: Quicksand;
+  margin: 10;
+  padding: 5;
+}
+.activateButton {
+  color: white;
+  font-size: 30;
+  background-color: #220f55;
+  margin-top: 10;
+  font-family: Quicksand;
+}
+</style>

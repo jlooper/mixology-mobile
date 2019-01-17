@@ -1,18 +1,12 @@
 <template>
-  <GridLayout rows="auto,auto,auto" verticalAlignment="top">
+  <GridLayout rows="auto,auto" verticalAlignment="top">
     <Label class="page-title" row="0" text="Scan a Label!"/>
-    <GridLayout
-      row="1"
-      rows="auto"
-      columns="auto, auto"
-      horizontalAlignment="right"
-      class="m-t-4 m-r-8"
-    >
+    <GridLayout row="0" rows="auto" columns="auto, auto" horizontalAlignment="right">
       <Label col="0" text="Light"></Label>
       <Switch col="1" :checked="torchOn" @checkedChange="toggleTorch($event)"></Switch>
     </GridLayout>
 
-    <GridLayout row="2" class="card" rows="2/3*,*">
+    <GridLayout row="1" class="card" rows="2/3*,*">
       <MLKitTextRecognition
         width="75%"
         height="75%"
@@ -132,14 +126,6 @@ export default {
 </script>
 
 <style>
-.upload-btn {
-  color: white;
-  font-size: 30;
-  background-color: #220f55;
-  margin: 15;
-  font-family: Quicksand;
-}
-
 .result-button {
   padding: 10;
   margin: 10;
@@ -151,7 +137,7 @@ export default {
 .swing {
   animation-name: swingAnimation;
   animation-duration: 6s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 50;
   animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
 }
 
