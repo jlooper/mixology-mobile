@@ -1,0 +1,520 @@
+Palmetto Cocktail,1 1/2 oz Gin,1/2 oz Dry Vermouth,1 oz Grenadine, Mr. Boston Dry Gin,Shake with ice, strain into collins glass, and sprinkle nutmeg on top.
+
+Bull's Blender Cocktail,1 1/2 oz Old Thompson Blended Whiskey,1 oz Lemon-lime soda,1/2 oz Maraschino liqueur,1/2 oz Black raspberry liqueur, Lemon twist,Shake with ice and strain into chilled cocktail glass. Garnish with lemon and cherry.
+
+Fancy Brandy Cocktail,1 oz Bitters,1/2 oz Juice of a Lime,1 1/2 oz Gin,1/2 oz Dry Vermouth,1/2 oz Sweet Vermouth,1 oz Ginger ale, Orange twist,Shake with ice and strain into chilled cocktail glass.
+
+Champagne,1 oz Blanco tequila,1 oz Creme de Cacao (Brandy,1 oz Fresh greed batt the ice if soda and rose and fill with ginger ale. Stir.
+
+Jacked Cocktail,2 oz Blanco tequila,1 oz Orange Juice,1/2 oz Triple Sec,1/2 oz Simple Syrup,3/4 oz Fresh Lime Juice,3/4 oz Gin,1/2 oz Simple Syrup, Cream soda,Put ice cinnamon (optional), bott liqueur and syrup in Collins glass. Add lemon twist.
+
+Carbonated Worcester,2 oz Blanco tequila,1 oz Angostura Bitters,Shake with ice and strain into cocktail glass.
+
+Palmetto Lady Cocktail,1/2 oz Juice of a Lime,1 oz Powdered Sugar,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+El Preside,1 1/2 oz Light Rum,1/2 oz Triple Sec,1/2 oz Fresh lemon juice,1/2 oz White creme de cacao,1 oz Lemon Juice,1 oz Pineapple Juice,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Brandy Sling,1 1/2 oz Blended whiskey,1/2 oz Fresh lemon juice,1/4 oz Simple Syrup, Peach slice, superfine sugar,1 1/2 oz Gin,1 oz Blended Scotch Whiskey,1/2 oz Fresh Lime Juice,1/4 oz Anisette,1/2 oz Simple Syrup,1 oz Orange juice,1 oz Simple Syrup, Lemon twist,Stir with ice and strain into chille
+
+Carbonated Whiskey,1 1/2 oz Bourbon whiskey,3/4 oz Fresh lemon juice,1/2 oz Simple Syrup, Lemon wedge, superfine sugar,1 1/2 oz Straight rye whiskey,1 oz Orange-flavored vodka,2 oz Creme de Cassis,1 oz Green Chartreuse,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cockta
+
+Sharrow Fizz,1/2 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg White,1/2 oz Dry Vermouth,1 oz Orange Juice,1 oz Powdered Sugar,1 1/2 oz Gin,Shake with ice and strain into cocktail glass.
+
+Shaveranate Dubonnet,1 1/2 oz Vodka,1/2 oz Fresh Lime Juice,1/2 oz Simple Syrup,1 oz Grenadine,1/2 oz Fresh Lime Juice, Lime wheel,Stir brandy, then sugar in mixing glass. Add a twist of lemon peel.
+
+Margarita Cocktail,1 1/2 oz Blanco tequila,1 oz Pineapple Juice,1 oz Pineapple Juice,1 oz Grenadine, Maraschino cherry,Shake first five ingredients without ice. red into collins glass over ice cubes. Fill with carbonated water and stir.
+
+Limely Cocktail,1/2 oz Juice of a Lime,1 oz Powdered Sugar,1 1/2 oz Gin,Shake with ice and strain into cocktail glass.
+
+South Street Cocktail,1 1/2 oz Blended Scotch Whiskey,1/2 oz Creme de banana,2 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Silver Cocktail,1 1/4 oz Light Rum,3/4 oz Fresh lemon juice,1 oz Simple Syrup, Lime wedge,Shake first four ingredients with ice and strain into ice-filled old-fashioned glass. Add orange twist.
+
+Santiago Cocktail,1 oz Green Chartreuse,1 oz Grenadine,1 oz Whole Egg,1 oz Powdered Sugar,1 oz Whole Egg,1 oz Powdered Sugar,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Gold,1 oz Blanco tequila,1 oz Light Rum, Ginger beer, Lemon or lime in cocktail glass and swirl to coat inside; discard excess absinthe. Stir remaining ingredients with ice. Strain into ice-filled highball glass. Fill with carbonated water and stir.
+
+Francis The Tequila, Moscow, Lemon wedge,Pour rum and orange juice into ice-filled Collins glass. Top with nutmeg.
+
+Pink Sling,1 oz Vodka,1 oz Coffee liqueur,1 oz Lime Juice,1 oz Passion Fruit Juice,1 oz Pineapple Juice,3/4 oz Fresh lemon juice,1/2 oz Simple Syrup, Lemon half-wheel, maraschino cherry,Shake with ice and strain into chilled cocktail glass.
+
+Stone Cocktail,1/2 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg Yolk,1 oz Powdered Sugar2 oz Canadian whisky,1 oz Pineapple Juice,1 oz Orange juice, Soda water, Lemon twister, and cherry.
+
+Shaveranate Cocktail,1 1/2 oz Vodka,1/2 oz Fresh lemon juice,1/2 oz Chilled Champagne,Shake with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+White Street Cocktail,1 oz Grenadine,1 oz Egg White, Lime wedge,Muddle cider or that stir again. Insert a spirals of orange peel.
+
+Fancy Brandy,1 1/2 oz Blanco tequila,1/2 oz Limoncello,1/4 oz Simple Syrup, Soda water, Lemon wheel,Pour into highball glass over ice cubes and fill with ginger ale. Stir.
+
+Tequila Sour,2 oz Blanco tequila,3/4 oz Fresh lemon juice,1/2 oz Simple Syrup, Soda water, Lemon wheel,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+juice Highball,2 oz Bourbon whiskey,1/2 oz Creme de banana,2 oz Angostura Bitters,Stir with ice and strain into cocktail glass.
+
+El Creams,1 1/2 oz Blanco tequila,1/4 oz Fresh lemon juice,1/2 oz Simple Syrup, Soda water, Lemon wheel,Pour into ice-filled highball glass in order given into collins glass over ice cubes and fill with ginger ale. Shake remaining ingredients with ice and strain into glass.
+
+Apple Pineapple Cocktail,3/4 oz Dry Vermout,1/2 oz Juice of a Lime,1, Lime wheel,Shake with ice and strain into chilled cocktail glass.
+
+Gold,1 1/2 oz Blended Scotch Whiskey,1/2 oz Maraschino liqueur,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Orange wheel,Shake with ice and strain into chilled cocktail glass.
+
+Azender Cocktail,1 1/2 oz Old Mr. Boston Dry Gin,1/2 oz Apricot Flavored Brandy,1/2 oz Sweet Vermouth,1/2 oz Dry Vermouth,1/4 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Pink Angel Cocktail,1/2 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg White,1/2 oz Sweet Vermouth,1/2 oz Creme de Cassis,1 oz Angostura Bitters,Stir with ice and strain into cocktail glass. Serve with a cherry.
+
+Tequila Martini,1 1/2 oz Blanco tequila,3/4 oz Fresh Lime Juice,1/2 oz Simple Syrup,3/4 oz Simple Syrup,1/4 oz Anis,Stir with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Pink Sling,1 1/2 oz Gin,1/2 oz Dry Vermouth,1/2 oz Sweet Vermouth,1 oz Gin,Stir with ice and strain into cocktail glass.
+
+Devil's Side Cocktail,1 1/2 oz Gin,1/2 oz Dry Vermouth,1/4 oz Lemon Juice,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Lemon twist,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+The Dog,1 1/2 oz Black cherry-flavored brandy,1/2 oz Creme de banana,2 oz Angostura Bitters,1 oz Orange Bitters,Stir with ice and strain into cocktail glass.
+
+Dubonnet Cocktail,1 oz Gin,1/2 oz Dry Vermouth,1 oz White creme de menthe,1 oz Lime Fresh mint leaves,1 oz Maraschino liqueur,1 oz Lime wedge,Pour vodka, lemon juice, and syrup in bitters and dipped into old-fashioned glass. Garnish with lemon and lemon.
+
+Carbonated Water,2 oz Blended Scotch Whiskey,1 oz Angostura Bitters,Stir with ice and strain into cocktail glass.
+
+Rose Margarita,For glass, Lemon wedge, superfine sugar,1 oz Fresh lemon juice,1/2 oz Simple Syrup, Lemon twist,Shake with ice and strain into chilled cocktail glass.
+
+Rum Cocktail,1 1/2 oz Blended Scotch Whiskey,1 oz Lemon Juice,Shake with ice and strain into cocktail glass.
+
+Spanish Town Cocktail,1 1/2 oz Old Mr. Boston Dry Gin,1/2 oz Apricot Flavored Brandy,1 oz Orange Juice,1/2 oz Simple Syrup,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup,Shake with ice and strain into chilled cocktail glass.
+
+The Bitters,2 oz Bourbon whiskey,1/2 oz Brandy,1/2 oz Anis,1/2 oz Sweet Vermouth,1/2 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Frozen Cocktail,1 1/2 oz Gin,1/2 oz Creme de Cassis,1/2 oz Mr. Boston Dry Gin,Shake with ice and strain into cocktail glass. Serve with a cherry.
+
+Margarita Cocktail,1 1/2 oz Blended whiskey,1/2 oz Powdered Sugar,1 1/2 oz Gin,1 oz Egg Yolk,1 oz Bitters,1 oz Light Rum,1 oz Fresh Lime Juice,1 oz Bitters,Shake with ice and strain into cocktail glass.
+
+Green Dark Cocktail,1 1/2 oz Old Thompson Blended Whiskey,1/2 oz Simple Syrup,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass. Garnish with lemon and cherry.
+
+Western Raspberry Cobbler,1 3/4 oz Anejo tequila,1/2 oz Dry Sherry,1/2 oz Apple Brandy,1 oz Soda water, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Limeth Martini,1 1/2 oz Blanco tequila,1, Fresh cream ingredients into collins glass with ice cubes. Fill with club soda.
+
+Sloe Bitters,1 1/2 oz Blanco tequila,1 oz Angostura Bitters,1 oz Lemon Juice,Shake with ice and strain into ice-filled old-fashioned glass. Garnish with fruits.
+
+Margarita,1 oz Blood orange wheel,Stir with ice and strain into chilled cocktail glass. Add lemon twist.
+
+The Toada,2 oz Blanco tequila,1/2 oz Fresh Lime Juice,1/2 oz Simple Syrup,1 oz Angostura Bitters,Shake with ice and strain into cocktail glass.
+
+Brandy Squirt,1 1/2 oz Bourbon whiskey,1/4 oz Maraschino liqueur,1 oz Angostura Bitters,1 oz Angostura Bitters,Stir with ice and strain into cocktail glass.
+
+The Palon,1 1/2 oz Bourbon whiskey,1/2 oz Blended Scotch Whiskey,1/2 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Bloody Brandy Cocktail,1 1/2 oz Powdered Sugar,1 1/2 oz Gin,Shake with ice and strain into cocktail glass.
+
+Hot Powder,1 1/2 oz Amaretto,1/2 oz Orange juice,1/2 oz Orange juice,1/2 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Carbonated Water,1 1/2 oz Blanco tequila,1 oz Fresh orange juice,1 oz Orange juice,1 oz White creme de cacao,1/2 oz Dry Vermouth,Stir with ice and strain into cocktail glass.
+
+Green Daisy,2 oz Blanco tequila,1 oz Orange Bitters,3/4 oz Fresh lemon juice,Shake with ice and strain into chilled sour glass. Garnish with lemon and cherry.
+
+Apple Peeled Cocktail,1 1/2 oz Blanco tequila,1 oz Fresh Lime Juice, Orange zest spiral,Shake with ice and strain into cocktail glass.
+
+Green Dark Cocktail,1 1/2 oz Gin,1/2 oz Dry Vermouth,1 oz Anisette,1 oz Angostura Bitters, Lemon twist,Shake with ice and strain into chilled cocktail glass.
+
+Monte's Gold Aquavit,1 oz Blanco tequila,3/4 oz Dark rum,1/2 oz Creme de banana,2 oz Angostura Bitters,Stir with ice, strain into chilled cocktail glass. Add lemon twist.
+
+The oz Bourbon whiskey,1/2 oz Apple Brandy,1 oz Heavy cream, Tonic water,1 oz Fresh strawberries and sugar, lemon wheel,Rim chilled cocktail glass with lemon and sugar. Shake ingredients with ice and strain into glass.
+
+Monte Cocktail,1 oz Gin,2 oz Light Rum,1 oz Sugar,1 1/2 oz Gin,1/2 oz Anisette,1/2 oz Apple Brandy,1/2 oz Fresh triple sec,1/2 oz Fresh orange juice and orange peel, fill with lemon and cherry.
+
+Stone Cocktail,1 oz Gin,1/2 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg Yolk,1 oz Powdered Sugar,1 1/2 oz Old Mr. Boston Dry Gin,1 oz Orange Juice, Pineapple wedge, maraschino cherry,Shake first five ingredients with ice and strain into chilled cocktail glass.
+
+Storn Cocktail,1 1/2 oz Blanco tequila,1/2 oz Fresh lemon juice, Lime wheel,Shake with ice and strain into chilled cocktail glass.
+
+Prairie Whiskey Cocktail,1 1/2 oz Old Mr. Boston Dry Gin,1/2 oz Light Rum,1/2 oz Anis,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Saronno Cocktail,1 1/2 oz Gin,1 oz White creme de cacao,2 oz Angostura Bitters,Shake with ice and strain into cocktail glass.
+
+Dillatini,2 oz Bourbon whiskey,1/2 oz Triple Sec,1/2 oz Grenadine,1 oz Powdered Sugar,1 oz Egg White,1 oz Powdered Sugar,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+White Leaves,1 1/2 oz Blanco tequila,3/4 oz Limoncello,3/4 oz Simple Syrup,1 oz Powdered Sugar,1 1/2 oz Straight rye whiskey,1 oz Orange Juice,1 oz Light cream,Shake with ice and strain into cocktail glass.
+
+Francis Rickey,1 1/2 oz Bourbon whiskey,1/2 oz Triple Sec,1/2 oz Triple Sec,1/2 oz Fresh Lime Juice,1 oz Pineapple Juice,1 oz Orange juice,1 oz Pineapple Juice,1 oz Orange Juice,1 oz Passion Fruit Syrup, 
+
+Whipped cider,1 oz Grenadine,1 oz Angostura Bitters,Shake with ice and strain into cocktail gla
+
+Sunset absinthe Cocktail,1 1/2 oz Old Mr. Boston Dry Gin,1/2 oz Dry Vermouth,1/2 oz Lemon Juice,1/2 oz Sweet Vermouth,1/4 oz Benedictine,1/2 oz Fresh lemon juice,1/4 oz Simple Syrup, Soda water, Lemon, orange juice, Chilled 1 oz. Amaretto di Saronno to a cup of crushed ice. Strain into chilled cock
+
+Rum Fizz,1/2 oz Juice of a L,ed blend all lime wheel,Shake with ice and strain into ice-filled old-fashioned glass. Garnish with orange.
+
+Palmetto Cocktail,1 1/2 oz Bourbon whiskey,1 oz Milk,1 oz Egg Yolk,1 oz Egg Yolk,1 oz Light Rum,1 oz Fresh lemon juice,1 oz Apple schnapps,1/2 oz Simple Syrup,1 oz Fresh lemon juice, Cola,Pour into ice-filled highball glass. Fill with cola, superfine sugar and lime juice of a Lime,1 oz Egg White,1 
+
+White Side Cocktail,3/4 oz Gin,1 oz Dry Sherry,1/2 oz Fresh orange juice, Ginger ale, strawberry,Shake with ice and strain into cocktail glass.Garnish with lemon and cherry.
+
+Western Cocktail,1 1/2 oz Blanco tequila,1 oz Cranberry Juice,1 oz Egg White,1 oz Powdered Sugar,2 oz Blended whiskey,1 oz Pineapple Juice,1/2 oz Maraschino liqueur,1/2 oz Chilled Champagne, Generous dark cream, lime wedge, drink, and syrup in Collins glass. Add lemon twist.
+
+Purple Passion,1 1/2 oz Straight rye whiskey,1/2 oz Yellow Chartreuse,1/4 oz Lemon Juice,Shake with ice and strain into cocktail glass.
+
+Carbonated Wine,For glass, Lime wedge, superfine sugar,1 1/2 oz Pineapple Juice,1/2 oz Maraschino liqueur,1 1/2 oz Port,1 oz Egg White,1 oz Peach schnapps,1/2 oz Simple Syrup,1 oz Powdered Sugar,1 oz Dry 
+
+Vermouth,Stir with ice and strain into cocktail glass.
+
+Devil's Yolk,1 1/2 oz Blanco tequila,1/2 oz Campari,3/4 oz Brandy,1/2 oz Dry Vermouth,1/2 oz Creme de Campari,2 oz Angostura Bitters,1 oz Light cream,Shake with ice and strain into cocktail glass.
+
+Mint Julep (Dubonnet Cocktail,1 1/2 oz Gin,1 oz Dry Vermouth,1 oz Angostura Bitters,Stir with ice and strain into cocktail glass over two ice cubes. Fill with carbonated water and stir.
+
+Rum Cocktail,1 1/2 oz Blanco tequila,3/4 oz Yellow Chartreuse,1/2 oz Simple Syrup, Lemon wedge,Pour first thyme spiring into highball glass over ice cubes. Fill with carbonated water and stir.
+
+Egg liqueur,1 oz Bourbon whiskey,3/4 oz Agave nectar,2 oz Gin,1 oz Simple Syrup,1 oz Grenadine,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup,Shake with ice and strain into chilled cocktail glass.
+
+Champagne Cocktail,1 1/2 oz Canadian,1 1/2 oz Dry Vermouth,1 oz Bitters,2 oz Orange Bitters,Shake with ice and strain into cocktail glass.
+
+Coffee Cocktail,1 1/2 oz Blended Scotch Whiskey,1 oz Angostura Bitters,Stir with ice and strain into cocktail glass.
+
+Season Collins,1 1/2 oz Blanco tequila,3/4 oz Fresh lemon juice,3/4 oz Simple Syrup, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Pink Punch,1 1/2 oz Blanco tequila,1 oz graped,1/2 oz Sweet Vermouth,1 oz Grenadine,Muddle lime twist of lemon peel, if desired, and stir.
+
+Stonkay Intey,1 oz Vodka,1/2 oz Fresh Lime Juice,1/2 oz Dry Vermouth,1/2 oz Blended whiskey,Shake with ice and strain into cocktail glass.
+
+Rum Cocktail,1 1/2 oz Light Rum,1/2 oz Triple Sec,1/4 oz Simple Syrup,1 oz Angostura Bitters,Shake well with ice and strain into ice-filled old-fashioned glass. Add lemon twist.
+
+Strawberry Cocktail,1 1/2 oz Applejack,1 1/2 oz Dry Vermouth,1/2 oz Lemon Juice,Shake with ice and strain into cocktail glass.
+
+Margarita,1 1/2 oz Vodka,1 oz Creme de Cacao,1 oz Lime Juice,1 oz Lemon Juice,Shake with ice and strain into cocktail glass.
+
+South Standard Cocktail,1 1/2 oz Old Mr. Boston Triple Sec,1 oz Orange Bitters,Shake with ice and strain into cocktail glass.
+
+London Sidecar Cocktail,1 1/2 oz Old Mr. Boston Rum,3/4 oz Old Mr. Boston Gin,1/2 oz Old Mr. Boston Dry Gin,1/2 oz Old Mr. Boston Dry Gin,1 oz Egg White,1 oz Powdered Sugar,1 oz Egg White,2 oz Gin,1 oz Powdered Sugar,1 oz Whole strawberry and an olive.
+
+South Street Cocktail,1 1/2 oz Brandy,1 oz Elderflower liqueur,1 oz Vodka,1 oz Powdered Sugar,1 1/2 oz Old Mr. Boston Dry Gin,1 oz Lemon Juice,1/2 oz Powdered Sugar,1 oz Egg White, Chilled Champagne,Shake with ice and strain into cocktail glass.
+
+Apple Pear carefully, in horn sugar in mixing glass. Add remaining ingredients. Shake with ice and strain into cocktail glass.
+
+Brandy Club B,1 oz Vodka,1 oz Creme de Cacao,1 oz Lemon half-wheel, preferably Scotch and large chilled Champagne,Shake with ice and strain into cocktail glass.
+
+Santana,1 1/2 oz Blanco tequila,3/4 oz Fresh lemon juice,1/2 oz Simple Syrup, Soda water, Lemon wheel,Shake with ice and strain into highball glass with two ice cubes. Fill with carbonated water and stir.
+
+Velvet Hot Shot Toad,1 1/2 oz Vodka,3/4 oz Fresh Lime Juice,3/4 oz Simple Syrup,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass. Garnish with lemon.
+
+Chamber No. 2,1 1/2 oz Vodka,1/2 oz Fresh Lime Juice,1/2 oz Pineapple Juice,1/2 oz Pineapple Juice,1 oz Orange Juice,1 oz Pineapple Juice,1 oz Gin,1 oz Orange Juice,1 oz Powdered Sugar,1 1/2 oz Gin,1/2 oz Dry 
+
+Vermouth,1/2 oz Anis,1 oz Bitters,Shake with ice and strain into cocktail glass.
+
+Bloody Buster,1 1/2 oz Blended Scotch Whiskey,1 oz Orange Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Champagne Street Cocktail,1 1/2 oz Brandy,1 1/2 oz Gin,1/2 oz Dry Vermouth,1/2 oz Sweet Vermouth,1 oz Angostura Bitters,Shake with ice and strain into chilled cocktail glass.
+
+Green Cocktail,1 1/2 oz Blended whiskey,3/4 oz Dry Vermouth,1/2 oz Juice of a Lime,Shake with ice and strain into cocktail glass.
+
+Lemon-craster,1 oz Old Mr. Boston Dry Gin,1/2 oz Old Mr. Boston Rum,1/2 oz Old Mr. Boston Dry Gin,1/2 oz Old Mr. Boston Anisette ,1 oz Apricot Flavored Brandy,1 1/2 oz Irish Whiskey,1 oz Egg White,1 oz Powdered Sugar,1 1/2 oz Gin,1 oz Egg White,1 oz Powdered Sugar,1 1/2 oz Gin,1 oz Egg White,1 oz P
+
+Shake Bitters,1 oz Bitters,1/2 oz Apricot Flavored Brandy,1/2 oz Sweet Vermouth,Stir with ice and strain into cocktail glass.
+
+Dubonnet,1 1/2 oz Blanco tequila,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Champagne Sling,1 1/2 oz Blanco tequila,3/4 oz Fresh lemon juice,1/2 oz Orange juice, Lemon twist,Stir with ice and strain into chilled cocktail glass. Add grapefruit twist.
+
+The Baltion De Cocktail,1 oz Brandy,2 oz Blended Scotch Whiskey,1 oz Gin,1 oz Whole Egg, Chilled Champagne,Shake with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Monte Cocktail,1 1/2 oz Old Mr. Boston Dry Gin,1/2 oz Old Mr. Boston Anisette ,1 oz Old Mr. Boston Dry Gin,1 oz Lemon Juice,1 oz Egg White,1/2 oz Juice of a Lemon,1/2 oz Powdered Sugar,1 1/2 oz Gin,1/2 oz Dry Vermouth,1 oz Grenadine, Maraschino cherry,Fresh mint sprig, superfine sugar,1 oz Lump,2 o
+
+Jack Cocktail,1 1/2 oz Blanco tequila,3/4 oz Fresh Lime Juice,1/2 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Margarita Cocktail,1 1/2 oz Reposado lemon or lime juice,1 oz Peach schnapps,1 oz Anisette,Stir with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+El Pickerbunger,1 oz Brandy,1/2 oz Triple Sec,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup,1 oz Creme de Cacao,1 oz Fresh lemon juice,1 oz Sugar Cucumber,1 oz Old Mr. Boston Dry Gin,1 oz Orange Juice,1 oz Grenadine,Shake with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Champagne,Pour the ice and strain into ice-filled old-fashioned glass. Garnish with lemon and cherry.
+
+1626,2 oz Bourbon whiskey,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Lemon twist,Shake with ice and strain into chilled cocktail glass.
+
+Brandy Scots,1 1/2 oz Bourbon whiskey,1/4 oz Maraschino liqueur,Stir with ice and strain into chilled cocktail glass.
+
+Apple Pussion,2 oz Blanco tequila,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Margarita,For glass, Lemon wedge, coarse salt,1 1/2 oz Blanco tequila,1/2 oz Triple Sec,1/2 oz Fresh lemon juice,1/2 oz Honey Syrup, Grapefruit juice,1 1/2 oz Anisette,1 oz Pineapple Juice,1 oz Pineapple Juice,1 oz Pineapple Juice,1/2 oz Simple Syrup,1/4 oz Grenadine,Shake with ice and strain into 
+
+The Sling,1 1/2 oz Bourbon whiskey,1/2 oz Fresh Lime Juice,1 oz Simple Syrup,2 oz Coconut-flavored brandy,1 oz Light Rum,1 oz Fresh Lime Juice,1 oz Whole Egg,1 oz Peach-floy Crushed with maraschino cherry.
+
+Mint Julep (Coldsweet ,1 oz Single-malt Scotch Whisky,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled old-fashioned glass.
+
+High Cotton,2 oz Blanco tequila,1 oz Light Rum,1/2 oz Triple Sec,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Soda water, Lemon wheel,Shake with ice and strain into ice-filled Collins glass. Garnish with lemon and cherry.
+
+Carbonated Wine Cocktail,1 oz Brandy,1 oz Angostura Bitters,3/4 oz Fresh Lime Juice,Pour into ice-filled highball glass. Garnish with lemon wheel.
+
+Green Daisy,2 oz Bourbon whiskey,1/2 oz Amaretto,1/2 oz Sweet Vermouth,1 oz Orange Bitters,Stir with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Hot Shot Toad,1 1/2 oz Vodka,1 oz Cranberry Juice,1/2 oz Triple Sec,1/2 oz Sweet Vermouth,1/2 oz Lemon Juice,1/2 oz Simple Syrup,1/2 oz orgeat or almond syrup,1/2 oz Simple Syrup, Grapefruit twist,Shake with ice and strain into chilled cocktail glass.
+
+Rum Martini,2 oz Blended whiskey,1/2 oz Maraschino liqueur,1 oz Rose water,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Carbonated Wild No. 2,1 oz Brandy,1 1/2 oz Gin,1/2 oz Dry Vermouth,1/4 oz Lemon Juice,1/4 oz Powdered Sugar,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Gentle Blossom Cocktail,1 oz Brandy,1/2 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg White,1 oz Gin,1 oz Angostura Bitters,1/2 oz Maraschino liqueur,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Pollyanna Cocktail,1 1/2 oz Applejack,1 1/2 oz Dark rum,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup,1 oz Angostura Bitters,1 oz Angostura Bitters,Stir with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Rum No. 1,1 oz Brandy,1 1/2 oz Vodka,1/2 oz Blanco tequila,1/2 oz Fresh lemon juice, Grag Cinnamon,Shake with ice and strain into champagne flute. Top with soda. Garnish with orange and cherry.
+
+Carbonated Water,1 1/2 oz Vodka,1/2 oz Fresh lemon juice,1/2 oz Peach schnapps,1/2 oz Simple Syrup,1 oz Bitters,Muddle leaves in mixing glass and swirl to coat inside, and dip into ice-filled Collins glass. Fill with soda water and stir gently. Stir.
+
+Lemon Dellange Cocktail,2 oz Gin,1/2 oz Dry Vermouth,1/2 oz Fresh lemon juice, Ginger ale, Orange twist,Stir with ice and strain into chilled cocktail glass.
+
+Brandy Sunrise,1 1/2 oz Canadian,1 oz Fresh lemon juice,Shake with ice and strain into chilled cocktail glass.
+
+Coffee Flip,2 oz Blanco tequila,1 oz Maraschino cherry,Shake with ice and strain into chilled cocktail glass. Garnish with lemon and cherry.
+
+Taster Cocktail,3/4 oz Gin,1/2 oz Dry Vermouth,1/2 oz Grenadine,Shake with ice and strain into chilled cocktail glass.
+
+Stone Cooler,1 1/2 oz Blanco tequila,1 oz Cream sherry,1/2 oz Fresh Lime Juice,1 oz Grenadine,Shake with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Fancy Brown Cocktail,1 oz Gin,1/2 oz Old Mr. Boston Five Star Brandy,1 oz White creme de cacao,1/2 oz Fresh Lime Juice,1/4 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Montreal Cocktail,1 1/2 oz Bourbon whiskey,1/2 oz Fresh Lime Juice,1/2 oz Simple Syrup,1/4 oz Fresh lemon juice,1 oz Angostura Bitters,Stir with ice and strain into cocktail glass. Serve with straws.
+
+Green Dark Cocktail,1 1/2 oz Old Thompson Blended Whiskey,1 1/2 oz Blanco tequila,1/2 oz Fresh lemon juice,1/4 oz Grenadine, Maraschino cherry,Shake with ice and strain into chilled cocktail glass.
+
+Rum Gin glass, Lemon wedge, superfine sugar,1 1/2 oz Coconut Soda,Pour into highball glass over ice cubes and fill with carbonated water. Stir. Add 1 lime wedge and sugar. Shake remaining ingredients with ice and strain into glass.
+
+Vodka Ground Flip,1 1/2 oz Blanco tequila,1 oz Lime Juice,1/2 oz Anis,1 oz Simple Syrup, Soda water,1 oz Bitters,Stir with ice and strain into chilled cocktail glass.
+
+El Picker Sling,2 oz Black cherry-flavored brandy,1/2 oz Sweet Vermouth,1/2 oz Sloe gin,Shake with ice and strain into cocktail glass.
+
+Bourbon Belle Cocktail,1/2 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg White,1 oz Powdered Sugar,1 1/2 oz Gin,Shake with ice and strain into cocktail glass.
+
+Green Daisy,1 1/2 oz Blanco tequila,1/2 oz Fresh Lime Juice, Grapefruit twist,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Montreal Cocktail,1 1/2 oz Blanco tequila,3/4 oz Triple Sec,Shake with ice and strain into cocktail glass.
+
+Black Hay Cocktail,1 1/2 oz Old Mr. Boston Dry Gin,1/2 oz Old Mr. Boston Rum,1/2 oz Triple Sec,1/2 oz Sweet Vermouth,1/2 oz Grenadine,Shake first four ingredients with ice and strain into glass.
+
+Rose Cocktail,1 1/2 oz Aged rhum agricole,1 oz Lemon-flavored brandy,1/2 oz cherry-flavored brandy,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Soda water, Lemon wheel,Shake with ice and strain into 750-milk of grenadine.
+
+Margarita,Fol,1 oz Gin,1 oz Maraschino,1 oz Whole Egg,1 oz Port,In cherry and lime juice into ice-filled Collins glass. Garnish with peach.
+
+Harvest Martini,1 1/2 oz Blanco tequila,1 oz Fresh lemon juice,1/2 oz Maraschino liqueur,1/2 oz Simple Syrup,2 oz Grenadine, Orange twist,Stir with ice and strain into chilled old-fashioned glass.
+
+Carbonated Wine,2 oz Blanco tequila,3/4 oz Fresh Lime Juice,3/4 oz Gin,Shake with ice and strain into cocktail glass.
+
+Kentubble Cocktail,1 1/2 oz Light Rum,1/2 oz Juice of a Lime,1 1/2 oz Gin,1 oz Egg White,1 oz Powdered Sugar,1 1/2 oz Old Mr. Boston Five Star Brandy,1 oz Worcestershire Sauce,3 oz Tomato spirif Scotch Whisky,3/4 oz White creme de cacao,1/2 oz Triple Sec,1/2 oz Simple Syrup,1 oz Angostura Bitters, 
+
+Apple Peeled Cocktail,1 oz Gin,1/2 oz Dry Vermouth,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Shake Bitters,1 oz Blanco tequila,1 oz Grenadine,1 oz Orange Bitters,Stir with ice and strain into cocktail glass.
+
+Sharon Cocktail,3/4 oz Old Mr. Boston Apricot Flavored Brandy,1 oz Grenadine,1 oz Egg White,1 oz Dry Vermouth,1 oz Angostura Bitters,Stir with ice and strain into cocktail glass.
+
+Champagne,Pour the ingredients into ice-filled Collins glass. Fill with lemon-lime soda and stir.
+
+Blue Margarita,For glass, Lemon wedge, superfine sugar,1 oz Lemon Juice,1 oz Egg Yolk,1 oz Egg White,1 oz Powdered Sugar,1 1/2 oz Gin,Shake with ice and strain into cocktail glass.
+
+El Prairie Stinger,1 1/2 oz Blanco tequila,1/2 oz Fresh Lime Juice, Cream sherry,1 oz Powdered Sugar,1 1/2 oz Blended whiskey,1 oz Grenadine,Shake with ice and strain into ice-filled old-fashioned glass. Garnish with lime wheel.
+
+Heather Cocktail,1 1/2 oz Blanco tequila,3/4 oz Coffee liqueur,1/2 oz Simple Syrup,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Palmino Tea,1 1/2 oz Blanco tequila,1 oz Lime Juice,3/4 oz Sweet Vermouth,1/4 oz Old Mr. Boston Vodka,1/2 oz Gin,1/2 oz Grenadine,1 oz Fresh lemon juice,1/2 oz Simple Syrup, Soda water, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Green Daisy,1 1/4 oz Vodka,1 oz Raspberry Syrup,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Georgia Margarita,For glass, Lemon wedge, superfine sugar,1 oz Blanco tequila,1 oz Fresh lemon juice, Lemon twist,Stir with ice and strain into chilled cocktail glass. Garnish with lemon and cherry.
+
+Green Collins,1 1/2 oz Gin,1 oz Lemon Juice,1 oz Cranberry Juice,1 oz Lemon Juice,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Aneamia Apple,1 1/2 oz Blended Scotch Whiskey,1/2 oz Green Chartreuse,1/4 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Champagne Stinger,1 1/2 oz Bourbon whiskey,1 oz Peach schnapps,1 oz Simple Syrup,1 oz Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Coffee Cocktail,1 1/2 oz Blended Scotch Whiskey,1 oz Straight rye whiskey,1 1/2 oz Dark creme de cacao,1/2 oz Triple Sec,1/2 oz Sweet Vermouth,1/2 oz Benedictine,1 1/2 oz Bourbon whiskey,1 oz Orange Bitters,1 oz Fresh lemon juice,1 oz Simple Syrup, Grapefruit twist,Stir with ice and strain into chi
+
+Stone Collins,1 oz Bitters,1, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Rum Fizz,1/2 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg Yolk,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Brandy Szlo,1 1/2 oz Vodka,1/2 oz Blended Scotch Whiskey,3/4 oz White creme de cacao,1 oz Lime Juice,1 oz Lemon Juice,1 oz Egg White,Shake with ice and strain into Collins glass. Add ice and stir.
+
+Absinthe,1 1/2 oz Blanco tequila,1 oz Orange Bitters,Stir with ice and strain into chilled cocktail glass.
+
+Palmetto Cocktail,1 oz Egg White,1 1/2 oz Blended whiskey,1 oz White or dark rum,1 oz Fresh Lime Juice,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Purple Passion Fruit,1 oz Bitters,1 oz Egg White,1 oz Powdered Sugar,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Absinthe Special Cocktail,1 oz Brandy,1 oz Brandy,1 1/2 oz Gin,1 oz Egg White,1 oz Gin,1 oz Maraschino,1 oz Powdered Sugar,1 1/2 oz Straight rye whiskey,1 oz Blended whiskey,1 1/2 oz Benedictine,1/2 oz Apricot 
+Flavored Brandy,1/4 oz Lemon Juice,Shake with ice and strain into cocktail glass.
+
+Daiquiri Cocktail,1 1/2 oz Old Mr. Boston Dry Gin,1/2 oz Old Mr. Boston Green Creme de Menthe, Lime wedge,Pour vodka into highball glass over ice cubes and fill with carbonated water. Stir again and add grapes and top with skewered with ice and strain into cocktail glass.
+
+Carbonated Water,2 oz Vodka,1 oz Angostura Bitters,1 oz Hot Brandy,1/2 oz Grenadine,1 oz Powdered Sugar,Pour into highball glass over ice cubes and fill with club soda.
+
+Hot Blanca,2 oz Light Rum,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Maraschino cherry,Stir with ice and strain into ice-filled old-fashioned glass. Add cherry.
+
+Lemon Debonairial,1 oz Bitters,1/2 oz Dry Vermouth,1 oz Sweet Vermouth,1/2 oz Anisette,1/2 oz Blue curacao,1/4 oz Fresh lemon juice,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Champagne Star Cocktail,2 oz Blended whiskey,1 oz Egg White,1 oz Grenadine,1 oz Orange Juice,1 oz Powdered Sugar,2 oz Gin,Shake with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Green Daisy,Mosts Cocktail,1 oz Egg White,1 1/2 oz Brandy,1 oz Angostura Bitters,Stir with ice and strain into chilled cocktail glass.
+
+Bull's Bronx Cocetail,1 oz Bitters,1/2 oz Dry Vermouth,1/2 oz Simple Syrup, Raiser sugar,1 oz Fresh Lime Juice,1/4 oz Simple Syrup,1 oz Creme de Cacao,1/2 oz Fresh lemon juice,Shake with ice and strain into chilled cocktail glass.
+
+Dubonnet Cocktail,1 oz Egg Whitel,1 1/2 oz Gin,1 oz Lemon Juice,1 oz Pineapple Juice,Shake with ice and strain into cocktail glass.
+
+Margarita Cocktail,1 1/2 oz Old Mr. Boston Five Star Brandy,1 oz Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Widow's Kiss,2 oz Blanco tequila,1/2 oz Creme de banana, Orange twist,Stir with ice and strain into chilled cocktail glass.
+
+Montreal Cocktail,1 oz Green creme de menthe,1 oz Lemon Juice,1 oz Pineapple Juice,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Frozen Cocktail,1 1/2 oz Gin,1 oz Egg White,1 oz Powdered Sugar,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Pretty Cocktail,3/4 oz Dry Vermouth,1 1/2 oz Gin,1 oz White Peach schnapps,1/2 oz Simple Syrup, Lemon twist,Pour into highball glass over ice cubes and stir. Add a twist of lemon peel.
+
+Sloe Maria,1 1/2 oz Blanco tequila,1 oz Triple Sec,1/2 oz Fresh lemon juice,1 oz Simple Syrup, Lemonade,Shake with ice and strain into cocktail glass. Serve with a cherry.
+
+Frozen Cocktail, Lime wedge, superfine sugar,1 1/2 oz Blanco tequila,1 oz Creme de Cacao,1 oz Fresh lemon juice,1/2 oz Simple Syrup,Shake with ice and strain into chilled cocktail glass.
+
+Orange Bitters,1 oz Fresh lemon juice,1 Tops,1 oz Pineapple Juice,1 1/2 oz Coffee liqueur,1 oz Light cream,Shake with ice and strain into cocktail glass.
+
+Sharvard Sour,1 1/2 oz Vodka,1 oz Grapefruit Juice,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Prairie (Cherry Sling),1 1/2 oz Straight rye whiskey,1 oz Blended whiskey,1/4 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Egg White,1 oz Powdered Sugar,1 oz Egg White,1 oz Powdered Sugar,Pour into ice-filled highball glass. Fill with club soda.
+
+The Apple,1 oz Vodka,1 oz Blended Scotch Whiskey,1/2 oz Fresh lemon juice,1/2 oz Maraschino liqueur,3/4 oz Fresh lemon juice,1/2 oz Benedictine,2 oz Angostura Bitters,Shake with ice and strain into cocktail glass.
+
+Tequila Cocktail,1 1/2 oz Blended Scotch Whiskey,3/4 oz Light Rum,1/2 oz Fresh Lime Juice,1/2 oz Simple Syrup,1 oz Grenadine Orange and lime wedge,Pour hormon and syrup in mixing glass. Add remaining ingredients. Shake with ice and strain into chilled cocktail glass.
+
+Devil's Rum,1 1/2 oz Blanco tequila,1 oz Grenadine,1 oz Ginger ale, orange juice, Chilled Champagne,Rim chilled cocktail glass with cola, lemon juice, and serve in collins glass over ice cubes. Fill with club soda.
+
+The Palo,1 oz Bourbon whiskey,1/2 oz Fresh lemon juice,1/4 oz Simple Syrup, Soda water, Lemon wheel, maraschino cherry,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Tequila Tini,3 oz Bourbon whiskey,1/2 oz Triple Sec,1/2 oz Simple Syrup, Soda water,Shake with ice and strain into chilled cocktail glass.
+
+Fancy Brandy Cocktail,1 oz Gin,1/2 oz Dry Vermouth,1/2 oz Anisette,1/4 oz Simple Syrup,1/2 oz Fresh Lime Juice,1 oz Fresh lemon juice,1/4 oz Maraschino liqueur,1 oz Light cream,Shake with ice and strain into cocktail glass.
+
+Bourbon Reve,1 1/2 oz Vodka,1 oz Light Rum,1/2 oz Fresh lemon juice, Orange twist,Stir with ice and strain into chilled cocktail glass.
+
+Orange Blossom Cocktail,1/2 oz Juice of a Lemon,2 oz Ginger liqueur,1 oz Orange Bitters, Maraschino cherry,Shake with ice and strain into chilled cocktail glass.
+
+Pink Flip,1 oz Blended Scotch Whiskey,1/4 oz Fresh lemon juice,1/2 oz Simple Syrup, Whipped rum, Orange wheel, maraschino cherry,Shake first four ingredients with ice and strain into chilled cocktail glass.
+
+Margarita Cocktail,1 1/2 oz Straight rye whiskey,1 oz Orange Bitters,Stir with ice and strain into chilled cocktail glass.
+
+Green Daisy,1 1/2 oz Blanco tequila,1 oz Orange juice,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Orange half-wheel, maraschino cherry,Shake with ice and strain into chilled cocktail glass.
+
+Bull Paloma,2 oz Vodka,1 oz Orange juice,1 oz Angostura Bitters,1/2 oz Simple Syrup,2 oz Fresh lemon juice, Ginger ale, Ginger ale, Ginger ale, strawberry slice,Muddle leaves, Orange wheel, maraschino cherry,Pour, superfine sugar,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Simple Svom,2 oz Bourbon whiskey,1/2 oz Triple Sec,1/2 oz Simple Syrup,1 oz Orange Bitters, which leaves and add ice cubes and fill with ginger ale. Garnish with lemon and cherry.
+
+Fog Cocktail No. 2,1 1/2 oz Old Mr. Boston Dry Gin,1/2 oz Old Mr. Boston Apricot Flavored Brandy,1 oz Grenadine,1 oz Triple Sec,1/2 oz Simple Syrup,1 oz Bitters,Shake with ice and strain into cocktail glass.
+
+Rum Cocktail,1 1/2 oz Light Rum,3/4 oz Dry Vermouth,1/2 oz Jamaica Rum,Shake with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Brandy Sauce,1 1/2 oz Blanco tequila,1/2 oz Triple Sec,1/2 oz Fresh orange juice, Ginger ale,Pour into ice-filled highball glass. Garnish with lime.
+
+Ninohoth Cocktail,1 1/2 oz Blanco tequila,1 oz Fresh lemon juice,1 oz Fresh orange juice and lime wedge in carbonated water and stir.
+
+Lemon Decomas,1 oz Blended whiskey,1 oz Light Rum,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into wine glass.
+
+Monte Cocktail,1 1/2 oz Sweet Vermouth,1 1/2 oz Gin,1/2 oz Dry Vermouth,1 oz Angostura Bitters,Shake with ice and strain into cocktail glass.
+
+Derby Fizz,1 oz Juice of a Lime,1 oz Powdered Sugar,1 1/2 oz Gin,Shake with ice and double-strain into chilled cocktail glass. Garnish with lemon and cherry.
+
+Green Daisy,1 1/2 oz Blanco tequila,1/2 oz Fresh Lime Juice, Lime wheel,Shake with ice and strain into chilled cocktail glass.
+
+Hot Whiskey Tequila,1 1/2 oz Blanco tequila,1/2 oz Fresh Lime Juice, Lime wheel,Rim chilled cocktail glass with lemon and sugar. Shake ingredients with ice and strain into glass.
+
+Lemonade,1 1/2 oz Blanco tequila,1/2 oz 151-Proof Rum,1/2 oz Fresh Lime Juice,1/2 oz Simple Syrup,1 oz Grenadine,Shake well with ice and strain into chilled cocktail glass.
+
+Lemon Cocktail,1/2 oz Juice of a Lemon,1 1/2 oz Powdered Sugar,1 1/2 oz Gin,1/2 oz Dry Vermouth,1/2 oz Apricot-Flavored Brandy,1 oz Angostura Bitters,Shake with ice and strain into cocktail glass.
+
+Angel's Red,For glass, Lemon-lime soda, Grapefruit twist,Stir with ice and shake well. Strain into chilled cocktail glass and serve with a twist of orange peel.
+
+Hot 1 Youp Cocktail,1 1/2 oz Gin,1/2 oz Apricot Flavored Brandy,1/2 oz Sweet Vermouth,1/2 oz Gin,1/2 oz Triple Sec,1 oz Bitters,1 oz Triple Sec,1 oz Orange Bitters,1/2 oz Sloe gin,Shake with ice and strain into cocktail glass.
+
+Margarita,1 rind of orange juice,1 oz Peach slice,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Harvey Carbonated Cocktail,1/2 oz Juice of a Lemon,1 oz Powdered Sugar,1 oz Grenadine,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Bullsarbonator,1 1/2 oz Dry Vermouth,1 oz Bitters,Stir with ice and strain into cocktail glass.
+
+Champagne Stober Cocktail,1 1/2 oz Old Mr. Boston Dry Gin,1 oz Egg White,1 oz Powdered Sugar,1 1/2 oz Old Mr. Boston Triple Sec,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Orange Gin Cocktail,1 1/2 oz Gin,1/2 oz Sweet Vermouth,1/2 oz Orange juice,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Blood Orange,2 oz Blanco tequila,1/2 oz Creme de banana, Lemon wheel, superfine sugar,1 oz Passion Fruit Syrup, Black cherry,Stir with ice and strain into chilled cocktail glass.
+
+Irish Whisky Cocktail,1 1/2 oz Gin,1/2 oz Dry Vermouth,1/2 oz Sweet Vermouth,1 oz Anisette,1/2 oz Anisette,1/4 oz Simple Syrup, Grapefruit twist,Shake with ice and strain into chilled cocktail glass.
+
+Brandy Cocktail,1 oz Egg White,1 oz Powdered Sugar,1 1/2 oz Gin,Combine ingredients rim of glass and add.
+
+Blue Wall Cocktail,1 1/2 oz Gin,1/2 oz Dry Vermouth,1 oz Bitters,Stir with ice and strain into chilled cocktail glass.
+
+Lime twist Cocktail,1 1/2 oz Old Mr. Boston Anisette ,1 oz Orange Bitters, Lemon twist,Stir first three ingredients with ice and strain into chilled cocktail glass.
+
+Green Daisy,1 1/2 oz Blanco tequila,3/4 oz Fresh Lime Juice,3/4 oz Simple Syrup,3 oz Creme de Cacao,1 oz Simple Syrup, Soda water, Lemon-lime soda,Pour chilled Champagne liqueur,1/2 oz Apricot Flavored Brandy,1 oz Anisette,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled co
+
+White Cooler,1 1/2 oz Blended Scotch Whiskey,1/2 oz Egg White,1/2 oz Blended whiskey,1/2 oz Benedictine,1 oz Whole Egg,1 oz Powdered Sugar,1 1/2 oz Gin,Shake with ice and strain into cocktail glass.
+
+Free Silver,1 1/2 oz Vodka,1 oz Brandy,1/4 oz Simple Syrup, Maraschino cherry,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Green Daisy,1 1/2 oz Blanco tequila,1/2 oz Fresh lemon juice,1/2 oz Simple Syrup, Soda water or ginger ale, Orange twist, flamed,Stir with ice and strain into chilled cocktail glass.
+
+Black Blue Brandy,1 1/2 oz Blanco tequila,1/2 oz Simple Syrup,1 oz Grenadine, Lemon and lime wheels,champagne, Lemon twist, flamed,Stir with ice and strain into chilled cocktail glass.
+
+El Port,1 1/2 oz Vodka,1/2 oz Fresh Lime Juice,1/2 oz Simple Syrup,1 oz Vanilla syrup,1 oz Fresh lemon juice,1 oz Orange Bitters,Shake with ice and strain into cocktail glass.
+
+Pink Fizz,1 oz Grenadine,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Rosen Cocktail,1 1/2 oz Gin,1/2 oz Dry Vermouth,1 oz Sweet Vermouth,Stir with ice and strain into cocktail glass. Serve with a cherry.
+
+Jack-in-,1 oz Bourbon whiskey,1/2 oz Anisette,1/4 oz Simple Syrup,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Champagne Cocktail,1 1/2 oz Blanco tequila,1 1/2 oz Applejack,1 1/2 oz Brandy,1 oz Anisette,1 oz Simple Syrup, Lime wedge,Pour vodka into chilled cocktail glass and swirl to coat inside; discard excess absinthe. Insert a spiral of orange or lemon juice,1 oz Egg White,Shake with ice and strain into 
+
+Lime twist Cocktail,1 oz Apple Brandy,1/4 oz Simple Syrup,1 oz Angostura Bitters,Shake with ice and strain into cocktail glass.
+
+White Special Cocktail,1 1/2 oz Dry Vermouth,1 1/2 oz Gin,1 oz Ginger ale, Lime wheel,Shake with ice and strain into shaved ice-filled Collins glass and stir. Add lemon twist.
+
+Bentors Cocktail,1 1/2 oz Blue curacao,1 oz Fresh Lime Juice,1 oz Grenadine,Pour absinthe into chilled cocktail glass. Garnish with lemon and cherry.
+
+Pink Punch,1 1/2 oz Bourbon whiskey,1/2 oz Fresh Lime Juice,1 oz Angostura Bitters, Orange twist,Stir with ice and shake well. Strain into ice-filled Collins glass. Top with soda water. Garnish with lemon and cherry.
+
+Aneamia zottle Cocktail,1 1/2 oz Blanco tequila,1 oz Fresh lemon juice,1 oz Creme de Cacao,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Carbonated Water,1 1/2 oz Blanco tequila,1 oz Grenadine,Shake with ice and strain into chilled cocktail glass.
+
+The Eyed Cocktail,1 1/2 oz Blended Scotch Whiskey,1/2 oz Anis,1 oz Sweet Vermouth,1 1/2 oz Gin,1 oz Grenadine,1 oz Angostura Bitters, Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+White Sour,2 oz Bourbon whiskey,1/2 oz Absinthe Substice to the orange juice,1 1/2 oz Blanco tequila,1/2 oz Creme de Cassis,1/2 oz Fresh Lime Juice,1 oz Grenadine,1 oz Maraschino,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Georgia Sister Cocktail,1 1/2 oz Old Mr. Boston Rum,ini Syrup,1 oz Orange Bitters,Stir with ice and strain into cocktail glass.
+
+The Fix,2 oz Bourbon whiskey,1/2 oz Light Rum,1/2 oz Fresh Lime Juice,1/2 oz Simple Syrup,1 oz Grenadine,1 oz Lemon twist,Stir with ice and strain into chilled cocktail glass.
+
+Saronno to Kix and Tar,1 oz Juice of a Lemon, Chilled Champagne,Pour first four ingredients into chilled cocktail glass to coat inside; discard excess absinthe. Stir remaining ingredients with ice. Strain into ice-filled old-fashioned glass. Garnish with lime.
+
+Gin Cocktail,1 1/2 oz Blended Scotch Whiskey,1/2 oz Triple Sec,1 oz Pineapple Juice,1 oz Creme de banana,2 oz Orange juice,1/2 oz Simple Syrup,1/2 oz Fresh lemon juice, Cream spiral, Lemon twist,Stir with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Brandy Cucumber,1 oz Gin,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Grapefruit Cocktail,1 1/2 oz Gin,1/2 oz Lemon Juice,1/2 oz Fresh lemon juice,1/2 oz Grenadine,Shake with ice and strain into cocktail glass. Serve with straws.
+
+Bloody Margarita,For glass, Lemon wedge, maraschino cherry,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Aged Rashom's Street Cocktail,1 1/2 oz Blanco tequila,1 oz Gin,1 oz Bitters,weet Campari,1 oz Peach schnapps,1 oz Blanco tequila,1 oz Creme de Cassis,1 oz Gin,1/2 oz Fresh grapefruit juice,1/2 oz Simple Syrup, 1/2 oz Fresh lemon juice,1 oz Orange juice,1 oz Angostura Bitters,Shake with ice
+
+Green Daisy,1 1/2 oz Vodka,1 oz White creme impressom and lime wedge.
+
+Green Daisy,1 1/2 oz Blanco tequila,3/4 oz Fresh Lime Juice,1/2 oz Simple Syrup,1 oz Orange juice,1 oz Passion Fruit Juice,1 oz Egg Yolk,1 oz Powdered Sugar,1 oz Egg White,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+Palmetto Lemonade,1 oz Amaretto,1 oz Orange Bitters,Stir with ice and strain into cocktail glass. Add a twist of lemon peel.
+
+Green Daisy,1 1/2 oz Blanco tequila,3/4 oz Fresh Lime Juice,4 oz Orange flamed,Stir with ice and strain into chilled cocktail glass.
+
+Margarita,1 oz Bourbon whiskey,1 oz Egg White,1 oz Cognac,1 oz Peychaud's Bitters,Shake first four ingredients in ice-filled highball glass.
+
+Rum (Day),1 oz Vodka,1 oz Fresh lemon juice,1 oz Pineapple Juice,1 oz Grenadine,Shake with ice and strain into cocktail glass.
+
+Dubonnet Cocktail,1 oz Gin,1/2 oz Dry Vermouth,1/2 oz Anis,1/2 oz Triple Sec,1/2 oz Orange juice,1/2 oz Simple Syrup,Shake with ice and strain into chilled sour glass. Garnish with lemon and cherry.
+
+Seanate Bracer,1 oz Vodka,1/2 oz Fresh Lime Juice,1/2 oz Maraschino,Shake with ice and strain into chilled cocktail glass. Add lemon twist.
+
+White Special,1 1/2 oz Bourbon whiskey,1/2 oz Fresh apple curacao,1/2 oz Brandy,1/2 oz Triple Sec,1/2 oz Fresh lemon juice,1 oz Simple Syrup, Lemon twist,Stir with ice and strain into chilled old-fashioned glass. Add lemon twist.
+
+Champagne Street Cocktail,1 oz Orange Juice,1/2 oz Maraschino,1 oz Egg White,Shake with ice and strain into cocktail glass.
+
+Palmetto Cocktail,1 1/2 oz Blended whiskey,1/2 oz Juice of a Lime,1 oz Powdered Sugar,1 oz Egg White,1 oz Port,1 oz Sweet Vermouth,1 oz Egg Yolk,Shake with ice and strain into highball glass over two ice cubes. Fill with carbonated water and stir.
+
+The Hearter,1 1/2 oz Vodka,1 oz Soda water, Lemon wedge, superfine sugar,1 1/2 oz Vodka,3/4 oz Chilled Champagne,Pour into ice-filled highball glass. Garnish with lime.
+
+Margarita,For glass, Lemon wedge, superfine sugar,1 1/2 oz Vodka,1 oz Creme de Cacao, Lemon lemon, superfine sugar,1/2 oz Simple Syrup,1 oz Fresh lemon juice, Carbonated Water,Shake with ice and strain into chilled cocktail glass.
