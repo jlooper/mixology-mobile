@@ -16,17 +16,13 @@
       <GridLayout row="2" col="0" rows="*" columns="*,*,*">
         <!-- Bottom navigation -->
         <StackLayout row="0" col="0" :class="navigationButtonClasses('Designer')">
-          <Image
-            @tap="currentComponent = 'Designer'"
-            src="~/assets/images/icon-1.png"
-            height="40"
-          />
+          <Image @tap="currentComponent = 'Designer'" src="~/assets/images/icon-1.png" height="30"/>
         </StackLayout>
         <StackLayout row="0" col="1" :class="navigationButtonClasses('Identifier')">
           <Image
             @tap="currentComponent = 'Identifier'"
             src="~/assets/images/icon-2.png"
-            height="40"
+            height="30"
           />
         </StackLayout>
 
@@ -34,7 +30,7 @@
           <Image
             @tap="currentComponent = 'Randomizer'"
             src="~/assets/images/icon-3.png"
-            height="40"
+            height="30"
           />
         </StackLayout>
       </GridLayout>
@@ -83,5 +79,4 @@ export default {
 .purple {
   background-color: #220f55;
 }
-
 </style>

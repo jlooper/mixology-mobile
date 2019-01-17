@@ -4,25 +4,31 @@
       <Label class="page-title" row="0" text="Shake to Create a Cocktail!"/>
       <Button class="page-title" row="1" text="Activate the Shaker" @tap="startAccelerometer()"/>
       <GridLayout class="card" row="2">
-        <Label :text="selectedCocktail" textWrap="true"/>
+        <ListView
+          for="item in selectedCocktail"
+          separatorColor="transparent"
+          backgroundColor="transparent"
+        >
+          <v-template>
+            <Label textWrap="true" :text="item"/>
+          </v-template>
+        </ListView>
       </GridLayout>
     </GridLayout>
   </ScrollView>
 </template>
 
 <script>
-import cocktails from "~/assets/created-cocktails.json";
-import {
-  startAccelerometerUpdates,
-  AccelerometerData
-} from "nativescript-accelerometer";
-let accelerometerListening = false;
+import cocktailGroup from "~/assets/created-cocktails.json";
+import * as accelerometer from "nativescript-accelerometer";
 
 export default {
   data() {
     return {
-      selectedCocktail: "",
+      selectedCocktail: [],
       cocktailObject: {},
+      cocktailGroup: cocktailGroup,
+      accelerometerListening: false,
       accelerometerValues: {
         x: null,
         y: null,
@@ -35,12 +41,12 @@ export default {
   },
   methods: {
     startAccelerometer: function() {
-      if (accelerometer && accelerometerListening) {
+      if (accelerometer && this.accelerometerListening) {
         accelerometer.stopAccelerometerUpdates();
       }
       accelerometer.startAccelerometerUpdates(
         data => {
-          accelerometerListening = true;
+          this.accelerometerListening = true;
           this.accelerometerValues = data;
           if (data) {
             this.detectShake();
@@ -71,19 +77,31 @@ export default {
 
       if (update > 0) {
         console.log("shook");
-        this.selectCocktail();
+        let randomCocktail = Math.floor(Math.random() * 260 + 0);
+        this.selectCocktail(randomCocktail);
       } else {
         console.log("no shake");
       }
     },
-    selectCocktail() {
-      this.selectedCocktail = "";
-      this.cocktailObject = {};
-      let randomCocktail = Math.floor(Math.random() * 500 + 0);
-      this.cocktailObject = cocktails[randomCocktail];
-      this.selectedCocktail = JSON.stringify(this.cocktailObject.cocktail);
-      accelerometer.stopAccelerometerUpdates();
+    selectCocktail(randomCocktail) {
+      if (this.accelerometerListening) {
+        let cocktailObject = this.cocktailGroup[randomCocktail];
+        this.parseCocktail(cocktailObject);
+      }
+    },
+    parseCocktail(cocktailObject) {
+      let newCocktail = JSON.stringify(cocktailObject.cocktail);
+      this.selectedCocktail = [];
+      let t = newCocktail.split(",");
+      for (var i = 0; i < t.length; i++) {
+        console.log(t[i]);
+        this.selectedCocktail.push(t[i]);
+      }
+      this.accelerometerListening = false;
     }
+  },
+  created() {
+    console.log(this.cocktailGroup);
   }
 };
 </script>

@@ -1,8 +1,18 @@
 <template>
-  <GridLayout rows="auto,auto" verticalAlignment="top">
+  <GridLayout rows="auto,auto,auto" verticalAlignment="top">
     <Label class="page-title" row="0" text="Scan a Label!"/>
+    <GridLayout
+      row="1"
+      rows="auto"
+      columns="auto, auto"
+      horizontalAlignment="right"
+      class="m-t-4 m-r-8"
+    >
+      <Label col="0" text="Light"></Label>
+      <Switch col="1" :checked="torchOn" @checkedChange="toggleTorch($event)"></Switch>
+    </GridLayout>
 
-    <GridLayout row="1" class="card" rows="2/3*,*">
+    <GridLayout row="2" class="card" rows="2/3*,*">
       <MLKitTextRecognition
         width="75%"
         height="75%"
@@ -101,13 +111,19 @@ import {
 export default {
   data() {
     return {
-      blocks: {}
+      blocks: {},
+      torchOn: false
     };
   },
   methods: {
+    toggleTorch(args) {
+      console.log(args.value);
+      if (args.value !== null && args.value !== this.torchOn) {
+        this.torchOn = args.value;
+      }
+    },
     scanLabel() {},
     onTextRecognitionResult(scanResult) {
-      console.log(scanResult);
       const MLKitRecognizeTextResult = scanResult.value;
       this.blocks = MLKitRecognizeTextResult.blocks;
     }
