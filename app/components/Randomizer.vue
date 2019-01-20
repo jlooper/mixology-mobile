@@ -26,10 +26,17 @@
 <script>
 import cocktailGroup from "~/assets/created-cocktails.json";
 import * as accelerometer from "nativescript-accelerometer";
+import * as audio from "nativescript-audio";
+
+const player = new audio.TNSPlayer();
 
 export default {
   data() {
     return {
+      playerOptions: {
+        audioFile: "~/assets/shake.mp3",
+        loop: false
+      },
       selectedCocktail: [],
       cocktailObject: {},
       cocktailGroup: cocktailGroup,
@@ -82,6 +89,14 @@ export default {
 
       if (update > 0) {
         console.log("shook");
+        player
+          .playFromFile(this.playerOptions)
+          .then(function(res) {
+            console.log(res);
+          })
+          .catch(function(err) {
+            console.log("something went wrong...", err);
+          });
         let randomCocktail = Math.floor(Math.random() * 260 + 0);
         this.selectCocktail(randomCocktail);
       } else {

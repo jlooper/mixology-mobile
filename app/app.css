@@ -1,18 +1,28 @@
 .page {
-  background-color: black;
-  color: white;
-  padding-top: 5;
+	background-color: black;
+	color: white;
+	padding-top: 5;
 }
 
 .card {
-  border-radius: 5;
-  margin: 20;
-  background: linear-gradient(to right top, #1e022b, #300246);
-  height: 85%;
+	border-radius: 5;
+	margin: 20;
+	background: linear-gradient(to right top, #1e022b, #300246);
+	height: 85%;
 }
 
 .page-title {
-  text-align: center;
-  font-size: 25;
-  font-family: Quicksand
+	text-align: center;
+	font-size: 25;
+	font-family: Quicksand;
+}
+.nav-btn {
+	border-radius: 20;
+	padding: 10;
+	margin: 10;
+	background-color: #180e34;
+}
+
+.purple {
+	background-color: #220f55;
 }

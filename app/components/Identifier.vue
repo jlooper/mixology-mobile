@@ -1,10 +1,15 @@
 <template>
   <GridLayout rows="auto,auto" verticalAlignment="top">
     <Label class="page-title" row="0" text="Scan a Label!"/>
-    <GridLayout row="0" rows="auto" columns="auto, auto" horizontalAlignment="right">
-      <Label col="0" text="Light"></Label>
-      <Switch col="1" :checked="torchOn" @checkedChange="toggleTorch($event)"></Switch>
-    </GridLayout>
+
+    <Image
+      src="~/assets/images/lightbulb-on.png"
+      row="0"
+      class="nav-btn"
+      width="20"
+      @tap="toggleTorch(true)"
+      horizontalAlignment="right"
+    />
 
     <GridLayout row="1" class="card" rows="2/3*,*">
       <MLKitTextRecognition
@@ -17,7 +22,7 @@
         @scanResult="onTextRecognitionResult($event)"
       ></MLKitTextRecognition>
 
-      <StackLayout class="swing" row="0" col="0" width="75%" height="40%">
+      <StackLayout class="swing" row="0" col="0" width="75%">
         <Label
           height="1"
           marginBottom="1"
@@ -135,6 +140,7 @@ export default {
 }
 
 .swing {
+  color: red;
   animation-name: swingAnimation;
   animation-duration: 6s;
   animation-iteration-count: 50;

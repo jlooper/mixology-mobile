@@ -13,11 +13,12 @@
         col="0"
       />
 
-      <GridLayout row="2" col="0" rows="*" columns="*,*,*">
+      <GridLayout row="2" col="0" rows="*" columns="*,*,*,*">
         <!-- Bottom navigation -->
         <StackLayout row="0" col="0" :class="navigationButtonClasses('Designer')">
           <Image @tap="currentComponent = 'Designer'" src="~/assets/images/icon-1.png" height="30"/>
         </StackLayout>
+
         <StackLayout row="0" col="1" :class="navigationButtonClasses('Identifier')">
           <Image
             @tap="currentComponent = 'Identifier'"
@@ -26,10 +27,14 @@
           />
         </StackLayout>
 
-        <StackLayout row="0" col="2" :class="navigationButtonClasses('Randomizer')">
+        <StackLayout row="0" col="2" :class="navigationButtonClasses('Creator')">
+          <Image @tap="currentComponent = 'Creator'" src="~/assets/images/icon-3.png" height="30"/>
+        </StackLayout>
+
+        <StackLayout row="0" col="3" :class="navigationButtonClasses('Randomizer')">
           <Image
             @tap="currentComponent = 'Randomizer'"
-            src="~/assets/images/icon-3.png"
+            src="~/assets/images/icon-4.png"
             height="30"
           />
         </StackLayout>
@@ -41,19 +46,19 @@
 <script>
 import Designer from "../components/Designer";
 import Identifier from "../components/Identifier";
+import Creator from "../components/Creator";
 import Randomizer from "../components/Randomizer";
 
 export default {
   data() {
     return {
       currentComponent: "Designer",
-      componentsArray: ["Designer", "Identifier", "Randomizer"]
+      componentsArray: ["Designer", "Identifier", "Creator", "Randomizer"]
     };
   },
   computed: {
     navigationButtonClasses() {
       return component => ({
-        //ion: true,
         "nav-btn": true,
         purple: component === this.currentComponent
       });
@@ -63,20 +68,11 @@ export default {
   components: {
     Designer,
     Identifier,
+    Creator,
     Randomizer
   }
 };
 </script>
 
 <style>
-.nav-btn {
-  border-radius: 20;
-  padding: 10;
-  margin: 10;
-  background-color: #180e34;
-}
-
-.purple {
-  background-color: #220f55;
-}
 </style>
