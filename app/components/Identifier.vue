@@ -27,61 +27,61 @@
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.1)"
+          bordercolor="rgba(138, 43, 226, 0.1)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.2)"
+          bordercolor="rgba(138, 43, 226, 0.2)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.3)"
+          bordercolor="rgba(138, 43, 226, 0.3)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.4)"
+          bordercolor="rgba(138, 43, 226, 0.4)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.5)"
+          bordercolor="rgba(138, 43, 226, 0.5)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.6)"
+          bordercolor="rgba(138, 43, 226, 0.6)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.7)"
+          bordercolor="rgba(138, 43, 226, 0.7)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.8)"
+          bordercolor="rgba(138, 43, 226, 0.8)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 0.9)"
+          bordercolor="rgba(138, 43, 226, 0.9)"
         />
         <Label
           height="1"
           marginBottom="1"
           borderBottomWidth="1"
-          bordercolor="rgba(81, 184, 237, 1)"
+          bordercolor="rgba(138, 43, 226, 1)"
         />
       </StackLayout>
 
@@ -135,12 +135,11 @@ export default {
   padding: 10;
   margin: 10;
   color: white;
-  background-color: blueviolet;
+  background-color: rgb(138, 43, 226);
   border-radius: 5;
 }
 
 .swing {
-  color: red;
   animation-name: swingAnimation;
   animation-duration: 6s;
   animation-iteration-count: 50;
