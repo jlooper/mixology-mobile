@@ -24,10 +24,6 @@ export default {
     takePicture() {
       camera
         .takePicture({ width: 300, height: 300, keepAspectRatio: true })
-        /*.then(imageAsset => {
-          this.pictureFromCamera = imageAsset;
-          this.queryMLKit(imageAsset);
-        });*/
         .then(imageAsset => {
           new ImageSource().fromAsset(imageAsset).then(imageSource => {
             this.pictureFromCamera = imageSource;
