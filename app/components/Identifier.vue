@@ -3,11 +3,11 @@
     <Label class="page-title" row="0" text="Scan a Label!"/>
 
     <Image
-      src="~/assets/images/lightbulb-on.png"
+      :src="light"
       row="0"
       class="nav-btn"
       width="20"
-      @tap="toggleTorch(true)"
+      @tap="toggleTorch()"
       horizontalAlignment="right"
     />
 
@@ -111,14 +111,18 @@ export default {
   data() {
     return {
       blocks: {},
-      torchOn: false
+      torchOn: false,
+      light: "~/assets/images/lightbulb-off.png"
     };
   },
   methods: {
-    toggleTorch(args) {
-      console.log(args.value);
-      if (args.value !== null && args.value !== this.torchOn) {
-        this.torchOn = args.value;
+    toggleTorch() {
+      if (!this.torchOn) {
+        this.torchOn = true;
+        this.light = "~/assets/images/lightbulb-on.png";
+      } else {
+        this.torchOn = false;
+        this.light = "~/assets/images/lightbulb-off.png";
       }
     },
     scanLabel() {},

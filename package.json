@@ -22,8 +22,9 @@
 		"nativescript-vue": "^2.0.0",
 		"tns-core-modules": "^5.1.1",
 		"nativescript-windowed-modal": "^5.0.2",
+		"nativescript-camera": "^4.1.1",
 		"nativescript-accelerometer": "^2.0.1",
-		"nativescript-plugin-firebase": "^7.6.1",
+		"nativescript-plugin-firebase": "^7.7.0",
 		"nativescript-audio": "5.0.1"
 	},
 	"devDependencies": {

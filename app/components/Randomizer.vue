@@ -2,12 +2,6 @@
   <ScrollView>
     <GridLayout rows="auto,auto,auto" style="height:100%" verticalAlignment="top">
       <Label class="page-title" row="0" text="Shake to Create a Cocktail!"/>
-      <!--<Button
-        class="activateButton"
-        row="1"
-        text="Activate the Shaker"
-        @tap="startAccelerometer()"
-      />-->
       <GridLayout class="card" row="1">
         <ListView
           for="item in selectedCocktail"
@@ -132,12 +126,5 @@ export default {
   font-family: Quicksand;
   margin: 10;
   padding: 5;
-}
-.activateButton {
-  color: white;
-  font-size: 30;
-  background-color: #220f55;
-  margin-top: 10;
-  font-family: Quicksand;
 }
 </style>
