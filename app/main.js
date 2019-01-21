@@ -4,6 +4,10 @@ import Home from './components/Home';
 
 import firebase from 'nativescript-plugin-firebase';
 
+import { ModalStack, overrideModalViewMethod } from 'nativescript-windowed-modal';
+
+overrideModalViewMethod();
+
 firebase
 	.init({
 		// Optionally pass in properties for database, authentication and cloud messaging,
@@ -26,6 +30,8 @@ Vue.registerElement(
 	'MLKitCustomModel',
 	() => require('nativescript-plugin-firebase/mlkit/custommodel').MLKitTextRecognition
 );
+Vue.registerElement('ModalStack', () => ModalStack);
+
 Vue.config.silent = TNS_ENV === 'production';
 
 new Vue({

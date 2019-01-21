@@ -11,6 +11,14 @@
 	height: 85%;
 }
 
+.modal-card {
+	border-radius: 5;
+	margin: 20;
+	background-color: #e3e9f8;
+	color: #131636;
+	height: 50%;
+}
+
 .page-title {
 	text-align: center;
 	font-size: 25;
