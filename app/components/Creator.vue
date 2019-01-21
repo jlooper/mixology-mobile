@@ -12,6 +12,7 @@
 
 <script>
 import * as camera from "nativescript-camera";
+import { ImageSource } from "tns-core-modules/image-source";
 
 export default {
   data() {
@@ -23,15 +24,23 @@ export default {
     takePicture() {
       camera
         .takePicture({ width: 300, height: 300, keepAspectRatio: true })
-        .then(imageAsset => {
+        /*.then(imageAsset => {
           this.pictureFromCamera = imageAsset;
           this.queryMLKit(imageAsset);
+        });*/
+        .then(imageAsset => {
+          new ImageSource().fromAsset(imageAsset).then(imageSource => {
+            this.pictureFromCamera = imageSource;
+            // give the user some time to to see the picture
+            setTimeout(() => this.queryMLKit(imageSource), 500);
+          });
         });
     },
-    queryMLKit(image) {
+    queryMLKit(imageSrc) {
+      console.log(imageSrc);
       this.$firebase.mlkit.custommodel
         .useCustomModel({
-          image: image,
+          image: imageSrc,
           localModelFile: "~/assets/models/retrained_graph.tflite",
           labelsFile: "~/assets/models/retrained_labels.txt",
           maxResults: 5,
