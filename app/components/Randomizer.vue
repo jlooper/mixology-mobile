@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       playerOptions: {
-        audioFile: "~/assets/shake.mp3",
+        audioFile: "~/assets/shake.m4a",
         loop: false
       },
       selectedCocktail: [],
@@ -115,7 +115,7 @@ export default {
     }
   },
   created() {
-    this.startAccelerometer();
+    //this.startAccelerometer();
   }
 };
 </script>

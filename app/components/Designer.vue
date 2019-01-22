@@ -5,21 +5,21 @@
 
       <GridLayout row="1" class="card" columns="*,*" rows="*,*,*">
         <StackLayout
-          orientation="vertical"
           class="bottle"
+          orientation="vertical"
           col="0"
           row="0"
-          @tap="showDetailPageModally('gin')"
+          @tap="setIngredient('Gin')"
         >
           <Image src="~/assets/images/gin.png"/>
           <Label text="Gin"/>
         </StackLayout>
         <StackLayout
-          orientation="vertical"
           class="bottle"
+          orientation="vertical"
           col="1"
           row="0"
-          @tap="showDetailPageModally('bourbon')"
+          @tap="setIngredient('Bourbon')"
         >
           <Image src="~/assets/images/bourbon.png"/>
           <Label text="Bourbon"/>
@@ -30,7 +30,7 @@
           class="bottle"
           col="0"
           row="1"
-          @tap="showDetailPageModally('brandy')"
+          @tap="setIngredient('Brandy')"
         >
           <Image src="~/assets/images/brandy.png"/>
           <Label text="Brandy"/>
@@ -40,7 +40,7 @@
           class="bottle"
           col="1"
           row="1"
-          @tap="showDetailPageModally('scotch')"
+          @tap="setIngredient('Scotch')"
         >
           <Image src="~/assets/images/scotch.png"/>
           <Label text="Scotch"/>
@@ -51,17 +51,18 @@
           class="bottle"
           col="0"
           row="2"
-          @tap="showDetailPageModally('vodka')"
+          @tap="setIngredient('Vodka')"
         >
           <Image src="~/assets/images/vodka.png"/>
           <Label text="Vodka"/>
         </StackLayout>
         <StackLayout
           orientation="vertical"
+          ref="cognac"
           class="bottle"
           col="1"
           row="2"
-          @tap="showDetailPageModally('cognac')"
+          @tap="setIngredient('Cognac')"
         >
           <Image src="~/assets/images/cognac.png"/>
           <Label text="Cognac"/>
@@ -72,42 +73,39 @@
 </template>
 
 <script>
-const Detail = {
-  props: ["ingredients"],
+
+import {mapState, mapActions, mapGetters} from 'vuex';
+
+const IngredientList = {
+  props: ["recipe"],
   template: `
             <ModalStack class="modal-container">
                 <GridLayout class="modal-card modal" rows="auto,auto" verticalAlignment="middle"  style="height:60%">
                     <Button row="0" @tap="$modal.close" class="fa close" text="x" horizontalAlignment="right" />
-                    <StackLayout row="1" ref="meaningContainer" style="height:90%">                  
-                        <ListView
-                            for="item in ingredients"
-                            separatorColor="transparent"
-                            backgroundColor="transparent"
-                             style="height:80%"
-                          >
-                            <v-template>
-                              <Label class="recipeLabel" textWrap="true" :text="item"/>
-                            </v-template>
-                          </ListView>
-                        <Button class="recipe-button" text="Find me a Recipe"/>
-                    </StackLayout>
+                    <Label row="1" :text="recipe.name"/>
                 </GridLayout>
             </ModalStack>
-      `
+      `,
 };
 export default {
   data() {
     return {
-      detailPage: Detail,
-      ingredients: []
+      ingredientListPage: IngredientList,
     };
   },
-  methods: {
-    showDetailPageModally(item) {
-      this.ingredients.push(item);
-      this.$showModal(Detail, {
+  computed: {
+    ...mapState(['recipe']),
+    ...mapGetters(['recipe'])
+  },
+  methods: {  
+    ...mapActions(['fetchRecipe']),
+    
+    setIngredient(item){
+      this.fetchRecipe(item)
+
+      this.$showModal(IngredientList, {
         props: {
-          ingredients: this.ingredients
+          recipe: recipe
         }
       });
     }
@@ -123,6 +121,9 @@ export default {
   margin: 10;
   color: white;
   text-align: center;
+}
+.highlighted {
+  background-color: #220f55;
 }
 .recipe-button {
   color: white;
