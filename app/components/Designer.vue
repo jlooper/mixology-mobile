@@ -74,8 +74,7 @@
 
 <script>
 
-import {mapState, mapActions, mapGetters} from 'vuex';
-import store from '../store';
+import {mapActions, mapGetters} from 'vuex';
 
 const IngredientList = {
   props: ["myRecipe"],
