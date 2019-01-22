@@ -94,7 +94,7 @@
         backgroundColor="transparent"
       >
         <v-template>
-          <Label class="result-button" textWrap="true" :text="item.text" col="1" row="3"/>
+          <Label class="result-button" textWrap="true" :text="item.text" col="1" row="3" @tap="getRecipe(item.text)"/>
         </v-template>
       </ListView>
     </GridLayout>
@@ -102,6 +102,8 @@
 </template>
 
 <script>
+import {mapActions, mapState} from 'vuex';
+
 import {
   MLKitRecognizeTextResult,
   MLKitRecognizeTextResultBlock
@@ -115,7 +117,11 @@ export default {
       light: "~/assets/images/lightbulb-off.png"
     };
   },
+  computed: {
+    ...mapState(['recipes']),
+  },
   methods: {
+    ...mapActions(['fetchRecipe']),
     toggleTorch() {
       if (!this.torchOn) {
         this.torchOn = true;
@@ -125,7 +131,11 @@ export default {
         this.light = "~/assets/images/lightbulb-off.png";
       }
     },
-    scanLabel() {},
+    getRecipe(text) {
+      this.fetchRecipe(text).then( result => {
+        //this.$refs.recipesbtn.nativeView.visibility = "visible";
+      })
+    },
     onTextRecognitionResult(scanResult) {
       const MLKitRecognizeTextResult = scanResult.value;
       this.blocks = MLKitRecognizeTextResult.blocks;
@@ -146,7 +156,7 @@ export default {
 .swing {
   animation-name: swingAnimation;
   animation-duration: 6s;
-  animation-iteration-count: 50;
+  animation-iteration-count: 10;
   animation-timing-function: cubic-bezier(0.42, 0, 1, 1);
 }
 

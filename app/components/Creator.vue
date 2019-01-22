@@ -11,6 +11,8 @@
 </template>
 
 <script>
+import {mapActions, mapState} from 'vuex';
+
 import * as camera from "nativescript-camera";
 import { ImageSource } from "tns-core-modules/image-source";
 
