@@ -75,14 +75,15 @@
 <script>
 
 import {mapState, mapActions, mapGetters} from 'vuex';
+import store from '../store';
 
 const IngredientList = {
-  props: ["recipe"],
+  props: ["myRecipe"],
   template: `
             <ModalStack class="modal-container">
                 <GridLayout class="modal-card modal" rows="auto,auto" verticalAlignment="middle"  style="height:60%">
                     <Button row="0" @tap="$modal.close" class="fa close" text="x" horizontalAlignment="right" />
-                    <Label row="1" :text="recipe.name"/>
+                    <Label row="1" :text="myRecipe.name"/>
                 </GridLayout>
             </ModalStack>
       `,
@@ -94,7 +95,6 @@ export default {
     };
   },
   computed: {
-    ...mapState(['recipe']),
     ...mapGetters(['recipe'])
   },
   methods: {  
@@ -102,10 +102,9 @@ export default {
     
     setIngredient(item){
       this.fetchRecipe(item)
-
       this.$showModal(IngredientList, {
         props: {
-          recipe: recipe
+          myRecipe: recipe
         }
       });
     }
