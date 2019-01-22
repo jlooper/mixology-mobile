@@ -5,19 +5,7 @@
     <GridLayout rows="auto,auto,auto" verticalAlignment="top">
       
       <Label class="page-title" row="0" text="What's in my bar?"/>
-
-      <StackLayout row="1" v-if="recipes">
-            <StackLayout class="recipe-card"
-                v-for="item in recipes"
-                    :key="item.id"
-                  >
-                <Label textWrap="true" :text="item.name" @tap="showRecipe(item)"/>
-                
-            </StackLayout>
-      </StackLayout>
-    
-      
-      
+      <Button row="1" style="visibility:collapsed" ref="recipesbtn" class="recipe-card" text="View Recipes" @tap="showRecipes(recipes)"/>    
         <GridLayout row="2" class="card" columns="*,*" rows="*,*,*">
           <StackLayout
             class="bottle"
@@ -95,12 +83,31 @@
 import {mapActions, mapState} from 'vuex';
 
 const RecipeModal = {
+  props: ["recipes"],
   template: `
             <ModalStack class="modal-container">
                 <GridLayout class="modal-card modal" rows="auto,auto" verticalAlignment="middle"  style="height:60%">
                     <Button row="0" @tap="$modal.close" class="fa close" text="x" horizontalAlignment="right" />
-                    <Label row="1" :text="myRecipe.name"/>
-                    <Label textWrap="true" :text="recipe.instructions"/>
+                     <ListView
+                        :items="recipes"
+                        separatorColor="transparent"
+                        row="1"
+                        backgroundColor="transparent"
+                        height="100%"
+                      >
+                        <v-template>
+                          <StackLayout class="recipe-card">
+                            <Label :text="item.name" textWrap="true" style="font-size:30;padding-bottom:5" />
+                            <Label textWrap="true" :text="item.ingredient1"/> 
+                            <Label textWrap="true" v-show="item.ingredient2!=' '" :text="item.ingredient2"/> 
+                            <Label textWrap="true" v-show="item.ingredient3!=' '" :text="item.ingredient3"/> 
+                            <Label textWrap="true" v-show="item.ingredient4!=' '" :text="item.ingredient4"/> 
+                            <Label textWrap="true" v-show="item.ingredient5!=' '" :text="item.ingredient5"/> 
+                            <Label textWrap="true" v-show="item.ingredient6!=' '" :text="item.ingredient6"/> 
+                            <Label textWrap="true" style="padding-top:5" :text="item.instructions"/>
+                          </StackLayout>
+                        </v-template>
+                      </ListView>
                 </GridLayout>
             </ModalStack>
       `,
@@ -118,13 +125,15 @@ export default {
     ...mapActions(['fetchRecipe']),
     
     setIngredient(item){
-      this.fetchRecipe(item)
+      this.fetchRecipe(item).then( result => {
+        this.$refs.recipesbtn.nativeView.visibility = "visible";
+      })
     },
-    showRecipe(item){
-      console.log(item)
+    showRecipes(recipes){
+      console.log(recipes)
       this.$showModal(RecipeModal, {
         props: {
-          recipe: item
+          recipes: recipes
         }
       });
     }
@@ -140,13 +149,13 @@ export default {
   margin: 10;
   color: white;
   text-align: center;
+  font-family: Quicksand;
 }
 .highlighted {
   background-color: #220f55;
 }
-.recipe-button {
+.recipe-card {
   color: white;
-  font-size: 30;
   background-color: #220f55;
   margin: 10 20 10;
   border-radius: 5;
