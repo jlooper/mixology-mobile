@@ -1,23 +1,38 @@
 <template>
-  <ScrollView>
-    <GridLayout rows="auto,auto" verticalAlignment="top">
+
+<ScrollView>
+  
+    <GridLayout rows="auto,auto,auto" verticalAlignment="top">
+      
       <Label class="page-title" row="0" text="What's in my bar?"/>
 
-      <GridLayout row="1" class="card" columns="*,*" rows="*,*,*">
-        <StackLayout
-          class="bottle"
-          orientation="vertical"
-          col="0"
-          row="0"
-          @tap="setIngredient('Gin')"
-        >
-          <Image src="~/assets/images/gin.png"/>
-          <Label text="Gin"/>
-        </StackLayout>
-        <StackLayout
-          class="bottle"
-          orientation="vertical"
-          col="1"
+      <StackLayout row="1" v-if="recipes">
+            <StackLayout class="recipe-card"
+                v-for="item in recipes"
+                    :key="item.id"
+                  >
+                <Label textWrap="true" :text="item.name" @tap="showRecipe(item)"/>
+                
+            </StackLayout>
+      </StackLayout>
+    
+      
+      
+        <GridLayout row="2" class="card" columns="*,*" rows="*,*,*">
+          <StackLayout
+            class="bottle"
+            orientation="vertical"
+            col="0"
+            row="0"
+            @tap="setIngredient('Gin')"
+          >
+            <Image src="~/assets/images/gin.png"/>
+            <Label text="Gin"/>
+          </StackLayout>
+          <StackLayout
+            class="bottle"
+            orientation="vertical"
+            col="1"
           row="0"
           @tap="setIngredient('Bourbon')"
         >
@@ -68,21 +83,24 @@
           <Label text="Cognac"/>
         </StackLayout>
       </GridLayout>
+      
+
     </GridLayout>
-  </ScrollView>
+
+    </ScrollView>
+  
 </template>
 
 <script>
+import {mapActions, mapState} from 'vuex';
 
-import {mapActions, mapGetters} from 'vuex';
-
-const IngredientList = {
-  props: ["myRecipe"],
+const RecipeModal = {
   template: `
             <ModalStack class="modal-container">
                 <GridLayout class="modal-card modal" rows="auto,auto" verticalAlignment="middle"  style="height:60%">
                     <Button row="0" @tap="$modal.close" class="fa close" text="x" horizontalAlignment="right" />
                     <Label row="1" :text="myRecipe.name"/>
+                    <Label textWrap="true" :text="recipe.instructions"/>
                 </GridLayout>
             </ModalStack>
       `,
@@ -90,20 +108,23 @@ const IngredientList = {
 export default {
   data() {
     return {
-      ingredientListPage: IngredientList,
+      recipeModal: RecipeModal,
     };
   },
   computed: {
-    ...mapGetters(['recipe'])
+    ...mapState(['recipes']),
   },
   methods: {  
     ...mapActions(['fetchRecipe']),
     
     setIngredient(item){
       this.fetchRecipe(item)
-      this.$showModal(IngredientList, {
+    },
+    showRecipe(item){
+      console.log(item)
+      this.$showModal(RecipeModal, {
         props: {
-          myRecipe: recipe
+          recipe: item
         }
       });
     }

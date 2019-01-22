@@ -34,3 +34,14 @@
 .purple {
 	background-color: #220f55;
 }
+
+.recipe-card{
+	margin: 5 20 0 20;
+	padding: 15;
+	border-radius:5;
+	background: linear-gradient(to right top, #1e022b, #300246);
+	color: white;
+	font-family: Quicksand;
+	font-size: 20;
+	font-weight: bold;
+}
