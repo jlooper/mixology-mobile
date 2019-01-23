@@ -45,3 +45,11 @@
 	font-size: 20;
 	font-weight: bold;
 }
+
+.result-button {
+	padding: 10;
+	margin: 10;
+	color: white;
+	background-color: rgb(138, 43, 226);
+	border-radius: 5;
+  }

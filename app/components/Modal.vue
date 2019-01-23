@@ -1,7 +1,4 @@
-const RecipeModal = {
-  props: ["recipes"],
-  template: `
-  
+<template>  
   <ModalStack class="modal-container">
     <GridLayout
       class="modal-card modal"
@@ -33,6 +30,10 @@ const RecipeModal = {
     </GridLayout>
   </ModalStack>
 </template>
-  
-  `,
-};
+
+<script>
+export default {
+  props: ["recipes"],
+  name: "RecipeModal"
+}
+</script>
