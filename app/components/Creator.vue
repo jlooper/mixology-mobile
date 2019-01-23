@@ -33,7 +33,11 @@ export default {
       ingredients: []
     };
   },
+  computed: {
+    ...mapState(['recipes']),
+  },
   methods: {
+    ...mapActions(['fetchRecipe']),
     takePicture() {
       camera
         .takePicture({ width: 300, height: 300, keepAspectRatio: true })

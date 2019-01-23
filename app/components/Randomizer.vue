@@ -115,7 +115,7 @@ export default {
     }
   },
   created() {
-    //this.startAccelerometer();
+    this.startAccelerometer();
   }
 };
 </script>
