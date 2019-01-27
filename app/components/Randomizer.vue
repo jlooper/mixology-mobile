@@ -82,7 +82,6 @@ export default {
       var update = lastUpdateLeft - lastUpdateRight;
 
       if (update > 0) {
-        console.log("shook");
         player
           .playFromFile(this.playerOptions)
           .then(function(res) {
@@ -93,8 +92,6 @@ export default {
           });
         let randomCocktail = Math.floor(Math.random() * 260 + 0);
         this.selectCocktail(randomCocktail);
-      } else {
-        console.log("no shake");
       }
     },
     selectCocktail(randomCocktail) {
@@ -115,7 +112,7 @@ export default {
     }
   },
   created() {
-    this.startAccelerometer();
+      this.startAccelerometer();
   }
 };
 </script>

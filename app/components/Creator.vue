@@ -1,22 +1,29 @@
 <template>
   <ScrollView>
-    <GridLayout rows="auto,auto,auto,auto,auto" verticalAlignment="top">
+    <GridLayout rows="auto,auto" verticalAlignment="top" style="height:100%" >
       <Label class="page-title" row="0" text="Bottoms Up!"/>
-      <Button class="pic-button" row="1" text="Take a Pic" @tap="takePicture()"/>
-      <StackLayout class="card" row="2">
+      
+      <StackLayout class="card" row="1">
+
+        <Button class="pic-button" text="Take a Pic" @tap="takePicture()"/>
+      
+          <ListView
+            :items="ingredients"
+            separatorColor="transparent"
+            class="score-card"
+          >
+          <v-template>
+            <StackLayout orientation="horizontal">
+              <check-box fillColor="white" :checked="isChecked" @checkedChange="check($event.value,item.text);isChecked = $event.value"></check-box>
+              <Label class="ingredient-label" textWrap="true" :text="item.text+' - '+Math.round(item.confidence*100)+'%'"/>
+            </StackLayout>
+          </v-template>
+        </ListView>
+
+        <Button v-show="recipeIngredients.length" class="pic-button" text="Find a Recipe" @tap="showRecipes(recipes)"/>
+
         <Image :src="pictureFromCamera"></Image>
       </StackLayout>
-      <ListView row="3"
-        :items="ingredients"
-        separatorColor="transparent"
-        style="margin-top:10"
-        class="score-card"
-      >
-        <v-template>
-          <Label class="label" textWrap="true" :text="item.text+' - '+Math.round(item.confidence*100)+'%'"/>
-        </v-template>
-      </ListView>
-      <Button v-show="ingredients.length" class="pic-button" row="4" text="Find a Recipe" @tap="findRecipe()"/>
     </GridLayout>
   </ScrollView>
 </template>
@@ -25,22 +32,53 @@
 import {mapActions, mapState} from 'vuex';
 import * as camera from "nativescript-camera";
 import { ImageSource } from "tns-core-modules/image-source";
+import RecipeModal from '../components/Modal';
 
 export default {
   data() {
     return {
       pictureFromCamera: null,
-      ingredients: []
+      ingredients: [],
+      recipeIngredients: [],
+      recipeModal: RecipeModal,
+      isChecked: false
     };
+  },
+  components: {
+    modalWindow: RecipeModal
   },
   computed: {
     ...mapState(['recipes']),
   },
   methods: {
-    ...mapActions(['fetchRecipe']),
+    ...mapActions(['fetchMultiIngredientRecipe']),
+    
+    setIngredient(){
+      this.fetchMultiIngredientRecipe(this.recipeIngredients)
+    },
+    check(checked,data){
+      let capIngredient = data.substring(0, 1).toUpperCase() + data.substring(1);
+      if(checked){
+        this.recipeIngredients.push(capIngredient)
+      }
+      else {
+        var index = this.recipeIngredients.indexOf(capIngredient);
+        if (index !== -1) this.recipeIngredients.splice(index, 1);
+      }
+      this.setIngredient()
+    },
+    showRecipes(recipes){
+      this.$showModal(RecipeModal, {
+        props: {
+          recipes: recipes
+        }
+      });
+    },
     takePicture() {
+      this.ingredients = [];
+      this.pictureFromCamera = null;
       camera
-        .takePicture({ width: 300, height: 300, keepAspectRatio: true })
+        .takePicture({ width: 224, height: 224, keepAspectRatio: true,  })
         .then(imageAsset => {
           new ImageSource().fromAsset(imageAsset).then(imageSource => {
             this.pictureFromCamera = imageSource;
@@ -67,7 +105,7 @@ export default {
             for (var i=0; i<result.result.length; i++){
               this.ingredients.push(result.result[i]);
             }
-            console.log(JSON.stringify(this.ingredients))
+            //this.setIngredient(JSON.stringify(this.ingredients.text))
         })
         .catch(errorMessage => {
           alert("ML Kit error: " + errorMessage);
@@ -85,19 +123,18 @@ export default {
   color: white;
   font-size: 30;
   background-color: #220f55;
-  margin: 10 20 10;
+  margin: 10;
   font-family: Quicksand;
 }
 .score-card {
-  padding: 10;
-	margin: 0 20 5 20;
+  margin: 5;
 	color: white;
-	background-color: rgb(138, 43, 226);
-  border-radius: 5;
+	border-radius: 5;
   font-family: Quicksand;
-  font-size: 25;
+  font-size: 20;
 }
-.label {
+.ingredient-label {
   padding: 5;
+  margin-bottom: 5;
 }
 </style>

@@ -26,14 +26,20 @@ firebase
 		}
 	);
 Vue.prototype.$firebase = firebase;
-Vue.registerElement(
+/*Vue.registerElement(
 	'MLKitTextRecognition',
 	() => require('nativescript-plugin-firebase/mlkit/textrecognition').MLKitTextRecognition
-);
+);*/
 Vue.registerElement(
 	'MLKitCustomModel',
-	() => require('nativescript-plugin-firebase/mlkit/custommodel').MLKitTextRecognition
+	() => require('nativescript-plugin-firebase/mlkit/custommodel').MLKitCustomModel
 );
+Vue.registerElement('CheckBox', () => require('nativescript-checkbox').CheckBox, {
+	model: {
+		prop: 'checked',
+		event: 'checkedChange'
+	}
+});
 Vue.registerElement('ModalStack', () => ModalStack);
 
 Vue.config.silent = TNS_ENV === 'production';
