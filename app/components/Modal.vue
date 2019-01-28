@@ -7,6 +7,9 @@
       style="height:60%"
     >
       <Button row="0" @tap="$modal.close" class="fa close" text="x" horizontalAlignment="right"/>
+      
+      <Label style="text-align:center;font-weight:bold" row="1" v-show="recipes.length==0" text="Sorry, no recipes!" verticalAlignment="top"/>
+      
       <ListView
         :items="recipes"
         separatorColor="transparent"

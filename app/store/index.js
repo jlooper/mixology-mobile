@@ -12,7 +12,7 @@ const state = {
 const mutations = {
   setRecipes: (state, recipes) => {
     state.recipes = recipes
-    console.log(JSON.stringify(state.recipes))
+    console.log(state.recipes)
   }
 }
 
@@ -55,15 +55,14 @@ const actions = {
             },
             limit: {
                 type: firebase.QueryLimitType.LAST,
-                value: 5
+                value: 30
             }
         }
     );
   },
-  fetchMultiIngredientRecipe({commit}, payload) {
-    console.log(payload[0])
-    var onQueryEvent = function (result) {
-      
+  
+  /*fetchMultiIngredientRecipe({commit}, payload) {
+    var onQueryEvent = function (result) {      
       if (result.error) {
         console.log(result.error)
       } else {
@@ -78,9 +77,8 @@ const actions = {
           ingredient5: obj[key].measurement5+' '+obj[key].ingredient5,
           ingredient6: obj[key].measurement6+' '+obj[key].ingredient6,
           instructions: obj[key].instructions,
-        }));
-        commit('setRecipes', recipes);
-      }
+        }));      
+      commit('setRecipes', recipes);
     };
 
     firebase.query(
@@ -95,14 +93,11 @@ const actions = {
             range: {
                 type: firebase.QueryRangeType.EQUAL_TO,
                 value: payload[0]
-            },
-            limit: {
-                type: firebase.QueryLimitType.LAST,
-                value: 20
             }
         }
     );
   }
+}*/
 }
 
 const storeConf = {

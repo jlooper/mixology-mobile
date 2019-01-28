@@ -51,10 +51,10 @@ export default {
     ...mapState(['recipes']),
   },
   methods: {
-    ...mapActions(['fetchMultiIngredientRecipe']),
+    ...mapActions(['fetchRecipe']),
     
     setIngredient(){
-      this.fetchMultiIngredientRecipe(this.recipeIngredients)
+      this.fetchRecipe(this.recipeIngredients[0])
     },
     check(checked,data){
       let capIngredient = data.substring(0, 1).toUpperCase() + data.substring(1);
