@@ -57,6 +57,7 @@ export default {
       this.fetchRecipe(this.recipeIngredients[0])
     },
     check(checked,data){
+      this.recipeIngredients = []
       let capIngredient = data.substring(0, 1).toUpperCase() + data.substring(1);
       if(checked){
         this.recipeIngredients.push(capIngredient)
