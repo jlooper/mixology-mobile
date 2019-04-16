@@ -1,12 +1,11 @@
 import Vue from 'nativescript-vue';
-
+import VueDevtools from 'nativescript-vue-devtools';
 import Home from './components/Home';
-
 import firebase from 'nativescript-plugin-firebase';
-
 import store from './store';
 
 Vue.prototype.$store = store;
+Vue.use(VueDevtools);
 
 import { ModalStack, overrideModalViewMethod } from 'nativescript-windowed-modal';
 
@@ -37,8 +36,8 @@ Vue.registerElement(
 Vue.registerElement('CheckBox', () => require('nativescript-checkbox').CheckBox, {
 	model: {
 		prop: 'checked',
-		event: 'checkedChange'
-	}
+		event: 'checkedChange',
+	},
 });
 Vue.registerElement('ModalStack', () => ModalStack);
 
