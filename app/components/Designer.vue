@@ -1,31 +1,35 @@
 <template>
-
-<ScrollView>
-  
+  <ScrollView>
     <GridLayout rows="auto,auto,auto" verticalAlignment="top">
-      
-      <Label class="page-title" row="0" text="What's in my bar?"/>
-      <Button row="1" style="visibility:collapsed" ref="recipesbtn" class="recipe-card" text="View Recipes" @tap="showRecipes(recipes)"/>    
-        <GridLayout row="2" class="card" columns="*,*" rows="*,*,*">
-          <StackLayout
-            class="bottle"
-            orientation="vertical"
-            col="0"
-            row="0"
-            @tap="setIngredient('Gin')"
-          >
-            <Image src="~/assets/images/gin.png"/>
-            <Label text="Gin"/>
-          </StackLayout>
-          <StackLayout
-            class="bottle"
-            orientation="vertical"
-            col="1"
+      <Label class="page-title" row="0" text="What's in my bar?" />
+      <Button
+        row="1"
+        style="visibility:collapsed"
+        ref="recipesbtn"
+        class="recipe-card recipe-btn"
+        text="View Recipes"
+        @tap="showRecipes(recipes)"
+      />
+      <GridLayout row="2" class="card" columns="*,*" rows="*,*,*">
+        <StackLayout
+          class="bottle"
+          orientation="vertical"
+          col="0"
+          row="0"
+          @tap="setIngredient('Gin')"
+        >
+          <Image src="~/assets/images/gin.png" />
+          <Label text="Gin" />
+        </StackLayout>
+        <StackLayout
+          class="bottle"
+          orientation="vertical"
+          col="1"
           row="0"
           @tap="setIngredient('Bourbon')"
         >
-          <Image src="~/assets/images/bourbon.png"/>
-          <Label text="Bourbon"/>
+          <Image src="~/assets/images/bourbon.png" />
+          <Label text="Bourbon" />
         </StackLayout>
 
         <StackLayout
@@ -35,8 +39,8 @@
           row="1"
           @tap="setIngredient('Brandy')"
         >
-          <Image src="~/assets/images/brandy.png"/>
-          <Label text="Brandy"/>
+          <Image src="~/assets/images/brandy.png" />
+          <Label text="Brandy" />
         </StackLayout>
         <StackLayout
           orientation="vertical"
@@ -45,8 +49,8 @@
           row="1"
           @tap="setIngredient('Scotch')"
         >
-          <Image src="~/assets/images/scotch.png"/>
-          <Label text="Scotch"/>
+          <Image src="~/assets/images/scotch.png" />
+          <Label text="Scotch" />
         </StackLayout>
 
         <StackLayout
@@ -56,8 +60,8 @@
           row="2"
           @tap="setIngredient('Vodka')"
         >
-          <Image src="~/assets/images/vodka.png"/>
-          <Label text="Vodka"/>
+          <Image src="~/assets/images/vodka.png" />
+          <Label text="Vodka" />
         </StackLayout>
         <StackLayout
           orientation="vertical"
@@ -67,21 +71,17 @@
           row="2"
           @tap="setIngredient('Cognac')"
         >
-          <Image src="~/assets/images/cognac.png"/>
-          <Label text="Cognac"/>
+          <Image src="~/assets/images/cognac.png" />
+          <Label text="Cognac" />
         </StackLayout>
       </GridLayout>
-      
-
     </GridLayout>
-
-    </ScrollView>
-  
+  </ScrollView>
 </template>
 
 <script>
-import {mapActions, mapState} from 'vuex';
-import RecipeModal from '../components/Modal';
+import { mapActions, mapState } from "vuex";
+import RecipeModal from "../components/Modal";
 
 export default {
   data() {
@@ -93,17 +93,17 @@ export default {
     modalWindow: RecipeModal
   },
   computed: {
-    ...mapState(['recipes']),
+    ...mapState(["recipes"])
   },
-  methods: {  
-    ...mapActions(['fetchRecipe']),
-    
-    setIngredient(item){
-      this.fetchRecipe(item).then( result => {
+  methods: {
+    ...mapActions(["fetchRecipe"]),
+
+    async setIngredient(item) {
+      await this.fetchRecipe(item).then(result => {
         this.$refs.recipesbtn.nativeView.visibility = "visible";
-      })
+      });
     },
-    showRecipes(recipes){
+    showRecipes(recipes) {
       this.$showModal(RecipeModal, {
         props: {
           recipes: recipes
@@ -126,12 +126,5 @@ export default {
 }
 .highlighted {
   background-color: #220f55;
-}
-.recipe-card {
-  color: white;
-  background-color: #220f55;
-  margin: 10 20 10;
-  border-radius: 5;
-  font-family: Quicksand;
 }
 </style>

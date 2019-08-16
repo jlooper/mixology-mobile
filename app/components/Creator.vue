@@ -1,11 +1,23 @@
 <template>
   <ScrollView>
-    <GridLayout rows="auto,auto" verticalAlignment="top" style="height:100%">
+    <GridLayout rows="auto,auto,auto" verticalAlignment="top" style="height:100%">
       <Label class="page-title" row="0" text="Bottoms Up!" />
-
-      <StackLayout class="card" row="1">
-        <Button class="pic-button" text="Take a Pic" @tap="takePicture()" />
-
+      <Button
+        ref="picbtn"
+        class="recipe-card recipe-btn"
+        row="1"
+        text="Take a Pic"
+        @tap="takePicture()"
+      />
+      <Button
+        row="1"
+        style="visibility:collapsed"
+        ref="recipesbtn"
+        class="recipe-card recipe-btn"
+        text="Find a Recipe"
+        @tap="showRecipes(recipes)"
+      />
+      <StackLayout class="card" row="2">
         <ListView :items="ingredients" separatorColor="transparent" class="score-card">
           <v-template>
             <StackLayout orientation="horizontal">
@@ -22,13 +34,6 @@
             </StackLayout>
           </v-template>
         </ListView>
-
-        <Button
-          v-show="recipeIngredients.length"
-          class="pic-button"
-          text="Find a Recipe"
-          @tap="showRecipes(recipes)"
-        />
 
         <Image :src="pictureFromCamera"></Image>
       </StackLayout>
@@ -61,8 +66,10 @@ export default {
   methods: {
     ...mapActions(["fetchRecipe"]),
 
-    setIngredient() {
-      this.fetchRecipe(this.recipeIngredients[0]);
+    async setIngredient() {
+      await this.fetchRecipe(this.recipeIngredients[0]).then(result => {
+        this.$refs.recipesbtn.nativeView.visibility = "visible";
+      });
     },
     check(checked, data) {
       this.recipeIngredients = [];
@@ -128,13 +135,6 @@ export default {
 </script>
 
 <style>
-.pic-button {
-  color: white;
-  font-size: 30;
-  background-color: #220f55;
-  margin: 10;
-  font-family: Quicksand;
-}
 .score-card {
   margin: 5;
   color: white;
