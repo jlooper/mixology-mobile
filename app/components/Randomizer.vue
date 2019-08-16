@@ -1,7 +1,7 @@
 <template>
   <ScrollView>
     <GridLayout rows="auto,auto,auto" style="height:100%" verticalAlignment="top">
-      <Label class="page-title" row="0" text="Shake to Create a Cocktail!"/>
+      <Label class="page-title" row="0" text="Shake to Create a Cocktail!" />
       <GridLayout class="card" row="1">
         <ListView
           for="item in selectedCocktail"
@@ -9,7 +9,7 @@
           backgroundColor="transparent"
         >
           <v-template>
-            <Label class="recipeLabel" textWrap="true" :text="item"/>
+            <Label class="recipeLabel" textWrap="true" :text="item" />
           </v-template>
         </ListView>
       </GridLayout>
@@ -113,7 +113,7 @@ export default {
   },
   created() {
     //disable this if testing on sim
-    this.startAccelerometer();
+    //this.startAccelerometer();
   }
 };
 </script>
