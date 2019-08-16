@@ -1,9 +1,9 @@
 # JetBrains project files
 .idea
-
+.DS_STORE
 # NPM
 node_modules
-
+.vscode
 # NativeScript application
 hooks
 platforms

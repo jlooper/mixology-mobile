@@ -1,0 +1,12 @@
+bourbon
+brandy
+coffeeliqueur
+cognac
+gin
+limoncello
+rum
+sambuca
+tequila
+vermouth
+vodka
+whisky

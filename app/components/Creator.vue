@@ -1,26 +1,34 @@
 <template>
   <ScrollView>
-    <GridLayout rows="auto,auto" verticalAlignment="top" style="height:100%" >
-      <Label class="page-title" row="0" text="Bottoms Up!"/>
-      
-      <StackLayout class="card" row="1">
+    <GridLayout rows="auto,auto" verticalAlignment="top" style="height:100%">
+      <Label class="page-title" row="0" text="Bottoms Up!" />
 
-        <Button class="pic-button" text="Take a Pic" @tap="takePicture()"/>
-      
-          <ListView
-            :items="ingredients"
-            separatorColor="transparent"
-            class="score-card"
-          >
+      <StackLayout class="card" row="1">
+        <Button class="pic-button" text="Take a Pic" @tap="takePicture()" />
+
+        <ListView :items="ingredients" separatorColor="transparent" class="score-card">
           <v-template>
             <StackLayout orientation="horizontal">
-              <check-box fillColor="white" :checked="isChecked" @checkedChange="check($event.value,item.text);isChecked = $event.value"></check-box>
-              <Label class="ingredient-label" textWrap="true" :text="item.text+' - '+Math.round(item.confidence*100)+'%'"/>
+              <check-box
+                fillColor="white"
+                :checked="isChecked"
+                @checkedChange="check($event.value,item.text);isChecked = $event.value"
+              ></check-box>
+              <Label
+                class="ingredient-label"
+                textWrap="true"
+                :text="item.text+' - '+Math.round(item.confidence*100)+'%'"
+              />
             </StackLayout>
           </v-template>
         </ListView>
 
-        <Button v-show="recipeIngredients.length" class="pic-button" text="Find a Recipe" @tap="showRecipes(recipes)"/>
+        <Button
+          v-show="recipeIngredients.length"
+          class="pic-button"
+          text="Find a Recipe"
+          @tap="showRecipes(recipes)"
+        />
 
         <Image :src="pictureFromCamera"></Image>
       </StackLayout>
@@ -29,10 +37,10 @@
 </template>
 
 <script>
-import {mapActions, mapState} from 'vuex';
+import { mapActions, mapState } from "vuex";
 import * as camera from "nativescript-camera";
 import { ImageSource } from "tns-core-modules/image-source";
-import RecipeModal from '../components/Modal';
+import RecipeModal from "../components/Modal";
 
 export default {
   data() {
@@ -48,27 +56,27 @@ export default {
     modalWindow: RecipeModal
   },
   computed: {
-    ...mapState(['recipes']),
+    ...mapState(["recipes"])
   },
   methods: {
-    ...mapActions(['fetchRecipe']),
-    
-    setIngredient(){
-      this.fetchRecipe(this.recipeIngredients[0])
+    ...mapActions(["fetchRecipe"]),
+
+    setIngredient() {
+      this.fetchRecipe(this.recipeIngredients[0]);
     },
-    check(checked,data){
-      this.recipeIngredients = []
-      let capIngredient = data.substring(0, 1).toUpperCase() + data.substring(1);
-      if(checked){
-        this.recipeIngredients.push(capIngredient)
-      }
-      else {
+    check(checked, data) {
+      this.recipeIngredients = [];
+      let capIngredient =
+        data.substring(0, 1).toUpperCase() + data.substring(1);
+      if (checked) {
+        this.recipeIngredients.push(capIngredient);
+      } else {
         var index = this.recipeIngredients.indexOf(capIngredient);
         if (index !== -1) this.recipeIngredients.splice(index, 1);
       }
-      this.setIngredient()
+      this.setIngredient();
     },
-    showRecipes(recipes){
+    showRecipes(recipes) {
       this.$showModal(RecipeModal, {
         props: {
           recipes: recipes
@@ -79,7 +87,7 @@ export default {
       this.ingredients = [];
       this.pictureFromCamera = null;
       camera
-        .takePicture({ width: 224, height: 224, keepAspectRatio: true,  })
+        .takePicture({ width: 224, height: 224, keepAspectRatio: true })
         .then(imageAsset => {
           new ImageSource().fromAsset(imageAsset).then(imageSource => {
             this.pictureFromCamera = imageSource;
@@ -91,22 +99,22 @@ export default {
       this.$firebase.mlkit.custommodel
         .useCustomModel({
           image: imageSrc,
-          localModelFile: "~/assets/models/retrained_graph.tflite",
-          labelsFile: "~/assets/models/retrained_labels.txt",
-          maxResults: 5,
+          localModelFile: "~/assets/models/graph.tflite",
+          labelsFile: "~/assets/models/labels.txt",
+          maxResults: 12,
           modelInput: [
             {
               shape: [1, 224, 224, 3],
               type: "QUANT"
             }
           ]
-        }) 
+        })
         .then(result => {
-          console.log(result.result)
-            for (var i=0; i<result.result.length; i++){
-              this.ingredients.push(result.result[i]);
-            }
-            //this.setIngredient(JSON.stringify(this.ingredients.text))
+          console.log(result.result);
+          for (var i = 0; i < result.result.length; i++) {
+            this.ingredients.push(result.result[i]);
+          }
+          //this.setIngredient(JSON.stringify(this.ingredients.text))
         })
         .catch(errorMessage => {
           alert("ML Kit error: " + errorMessage);
@@ -129,8 +137,8 @@ export default {
 }
 .score-card {
   margin: 5;
-	color: white;
-	border-radius: 5;
+  color: white;
+  border-radius: 5;
   font-family: Quicksand;
   font-size: 20;
 }

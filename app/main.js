@@ -1,11 +1,11 @@
 import Vue from 'nativescript-vue';
-import VueDevtools from 'nativescript-vue-devtools';
+//import VueDevtools from 'nativescript-vue-devtools';
 import Home from './components/Home';
 import firebase from 'nativescript-plugin-firebase';
 import store from './store';
 
 Vue.prototype.$store = store;
-Vue.use(VueDevtools);
+//Vue.use(VueDevtools);
 
 import { ModalStack, overrideModalViewMethod } from 'nativescript-windowed-modal';
 
@@ -43,7 +43,19 @@ Vue.registerElement('ModalStack', () => ModalStack);
 
 Vue.config.silent = TNS_ENV === 'production';
 
-new Vue({
+/*new Vue({
 	store,
 	render: h => h('frame', [h(Home)]),
+}).$start();*/
+new Vue({
+store,
+    template: `
+        <Frame>
+            <Home />
+        </Frame>`,
+
+    components: {
+        Home
+    }
 }).$start();
+

@@ -19,7 +19,7 @@
 
 <script>
 import cocktailGroup from "~/assets/created-cocktails.json";
-import * as accelerometer from "nativescript-accelerometer";
+//import * as accelerometer from "nativescript-accelerometer";
 import * as audio from "nativescript-audio";
 
 const player = new audio.TNSPlayer();
@@ -112,6 +112,7 @@ export default {
     }
   },
   created() {
+    //disable this if testing on sim
     this.startAccelerometer();
   }
 };
