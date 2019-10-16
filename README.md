@@ -22,6 +22,10 @@ npm i
 tns run ios or tns run android
 ```
 
+## Try a generator
+
+You can use textgen-rnn on Azure - use the Mr. Boston dataset I've exported from [Mr. Boston](https://mrbostondrinks.com/) - the Bartender's Bible. Try this [Azure Notebook](https://notebooks.azure.com/jennifer-looper/projects/cocktail-generator?WT.mc_id=leetspeak-github-jelooper) to generate fake cocktails based on this dataset. Learn more about Machine Learning on Azure [here](https://docs.microsoft.com/en-us/azure/machine-learning/service/overview-what-is-azure-ml?WT.mc_id=leetspeak-github-jelooper).
+
 ## Author
 
 👤 **Jen Looper**
