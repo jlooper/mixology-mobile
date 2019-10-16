@@ -1,0 +1,17 @@
+amaretto
+bourbon
+brandy
+coffeeliqueur
+cognac
+elderflower
+gin
+irishcream
+limoncello
+rum
+sambuca
+schnapps
+scotch
+tequila
+vermouth
+vodka
+whisky
